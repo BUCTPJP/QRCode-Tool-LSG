@@ -1,0 +1,39 @@
+2023-12-04 21:46:49,021 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 21:46:49,021 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
+2023-12-04 21:46:54,675 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe9\x9c\x91\xe6\xab\x81\xef\xbd\xbf\xe6\xa8\x92\xe6\x81\x9alll123', type='QRCODE', rect=Rect(left=11, top=11, width=367, height=369), polygon=[Point(x=11, y=11), Point(x=11, y=378), Point(x=378, y=380), Point(x=378, y=11)], quality=1, orientation='UP')]
+2023-12-04 21:47:51,312 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:122] - bg - INFO: Hi好.png保存完成-生成用时：0.19s
+2023-12-04 21:48:58,590 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 21:48:58,590 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
+2023-12-04 21:49:03,347 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe8\xa0\x8e\xe6\xa8\x94\xef\xbd\xbf\xe4\xbc\x81\xef\xbd\xb9\xe5\xae\xbfhh123', type='QRCODE', rect=Rect(left=11, top=11, width=368, height=367), polygon=[Point(x=11, y=11), Point(x=11, y=378), Point(x=379, y=378), Point(x=378, y=11)], quality=1, orientation='UP')]
+2023-12-04 21:49:29,705 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 21:49:29,705 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'eXIf' 41 80
+2023-12-04 21:49:29,707 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 133 65536
+2023-12-04 21:49:35,101 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'#000', type='QRCODE', rect=Rect(left=8, top=8, width=295, height=295), polygon=[Point(x=8, y=8), Point(x=9, y=303), Point(x=302, y=302), Point(x=303, y=9)], quality=1, orientation='UP')]
+2023-12-04 21:50:04,577 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:122] - bg - INFO: 123.png保存完成-生成用时：0.14s
+2023-12-04 21:50:18,778 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 21:50:18,779 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
+2023-12-04 21:50:23,383 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe5\xba\x9e\xe4\xbf\x8a\xe9\xb9\x8f', type='QRCODE', rect=Rect(left=8, top=8, width=295, height=295), polygon=[Point(x=8, y=8), Point(x=9, y=303), Point(x=302, y=302), Point(x=303, y=9)], quality=1, orientation='UP')]
+2023-12-04 21:50:44,012 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 21:50:44,012 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
+2023-12-04 21:50:44,078 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:122] - bg - INFO: 123.png保存完成-生成用时：0.07s
+2023-12-04 21:50:47,687 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:51] - produce - INFO: 123.png保存完成-生成用时：0.11s
+2023-12-04 21:50:54,030 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 21:50:54,030 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7351
+2023-12-04 21:50:57,980 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe5\xba\x9e\xe4\xbf\x8a\xe9\xb9\x8f123', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
+2023-12-04 21:51:03,276 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:51] - produce - INFO: 123.png保存完成-生成用时：0.10s
+2023-12-04 21:51:08,387 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 21:51:08,387 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7304
+2023-12-04 21:51:12,343 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe8\xa0\x8e\xe6\xa8\x94\xef\xbd\xbf\xe4\xbc\x81\xef\xbd\xb9\xe8\xa1\x93pp123', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
+2023-12-04 21:51:53,119 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:51] - produce - INFO: 123.png保存完成-生成用时：0.10s
+2023-12-04 21:51:56,745 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 21:51:56,747 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7113
+2023-12-04 21:52:01,322 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe5\xba\x9e\xe4\xbf\x8a\xe9\xb9\x8f ppp123', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
+2023-12-04 22:41:00,301 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 22:41:00,302 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 20463
+2023-12-04 22:41:05,561 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xc3\xa4\xc2\xbd\xc2\xa0\xc3\xa5\xc2\xa5\xc2\xbd', type='QRCODE', rect=Rect(left=114, top=114, width=83, height=83), polygon=[Point(x=114, y=114), Point(x=114, y=197), Point(x=197, y=197), Point(x=197, y=114)], quality=1, orientation='UP'), Decoded(data=b'\xc3\xa4\xc2\xbd\xc2\xa0\xc3\xa5\xc2\xa5\xc2\xbd', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
+2023-12-04 22:41:13,449 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 22:41:13,449 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7482
+2023-12-04 22:41:17,798 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xc3\xa4\xc2\xbd\xc2\xa0\xc3\xa5\xc2\xa5\xc2\xbd', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
+2023-12-04 22:45:00,202 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-04 22:45:00,203 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7482
+2023-12-04 22:45:05,785 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe4\xbd\xa0\xe5\xa5\xbd', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation=None)]
