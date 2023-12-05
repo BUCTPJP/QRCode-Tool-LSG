@@ -1,5 +1,10 @@
 # QRCode-Tool-LSG
 对原来生成二维码与解析二维码的代码做了整合更新，删除了旧仓库，统一移至此处
+***
+## 语言：
++ 简体中文|[zh](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/README/README_zh.md)
++ 英语|[en](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/README/README_en.md)
+***
 ## 功能：
 ### 1.生成二维码
 + 直接生成普通样式二维码
@@ -33,6 +38,7 @@
   ![image](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod2.png)
   
 ### 2.解析二维码  
+***
 ## 使用说明：
 + 1.生成带有背景图片的二维码时，尽量``不要选择背景过于复杂``的图片
 + 2.生成带有背景图片的二维码时，二维码颜色和背景主体``颜色尽量有较大差异``
