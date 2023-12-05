@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 '''
-@File    :   二维码小工具-v3.0-BUCTPJP[LSG].pyw
+@File    :   二维码小工具-v3.1-BUCTPJP[LSG].pyw
 @Time    :   2023/12/04 20:16:29
 @Author  :   BUCTPJP 
-@Version :   3.0
+@Version :   3.1
 @Contact :   pjp1095765918@gmail.com
 @License :   Copyright (C) 2023 , Inc. All Rights Reserved 
 @Desc    :   None
