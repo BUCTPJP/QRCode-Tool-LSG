@@ -11,7 +11,7 @@
 '''
 
 # here put the import lib
-import qrcode,qrcode.image.svg,logging,time,sys,pyzbar
+import qrcode,logging,time,sys,pyzbar
 import tkinter as tk,pyzbar.pyzbar as pyzbar
 from tkinter import filedialog
 from PIL import Image,ImageEnhance
