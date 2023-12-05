@@ -31,11 +31,11 @@
   
   mod1：
   
-  ![image](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod1.png)
+  ![image](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod1.png)<br>
   ​​
   mod2：
   
-  ![image](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod2.png)
+  ![image](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod2.png)<br>
   
 ### 2.解析二维码  
 ***
