@@ -1,5 +1,9 @@
 # QRCode-Tool-LSG
 We have integrated and updated the original code for generating and parsing QR codes, deleted the old warehouse, and moved it here uniformly
+***
+## Language：
++ Chinese Simplified|[zh](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/README/README_zh.md)
++ English|[en](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/README/README_en.md)
 ## Function：
 ### 1.Generate QR code
 + Directly generate regular style QR codes
