@@ -1,225 +1,49 @@
-2023-12-04 21:46:49,021 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 21:46:49,021 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-04 21:46:54,675 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe9\x9c\x91\xe6\xab\x81\xef\xbd\xbf\xe6\xa8\x92\xe6\x81\x9alll123', type='QRCODE', rect=Rect(left=11, top=11, width=367, height=369), polygon=[Point(x=11, y=11), Point(x=11, y=378), Point(x=378, y=380), Point(x=378, y=11)], quality=1, orientation='UP')]
-2023-12-04 21:47:51,312 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:122] - bg - INFO: Hi好.png保存完成-生成用时：0.19s
-2023-12-04 21:48:58,590 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 21:48:58,590 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-04 21:49:03,347 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe8\xa0\x8e\xe6\xa8\x94\xef\xbd\xbf\xe4\xbc\x81\xef\xbd\xb9\xe5\xae\xbfhh123', type='QRCODE', rect=Rect(left=11, top=11, width=368, height=367), polygon=[Point(x=11, y=11), Point(x=11, y=378), Point(x=379, y=378), Point(x=378, y=11)], quality=1, orientation='UP')]
-2023-12-04 21:49:29,705 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 21:49:29,705 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'eXIf' 41 80
-2023-12-04 21:49:29,707 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 133 65536
-2023-12-04 21:49:35,101 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'#000', type='QRCODE', rect=Rect(left=8, top=8, width=295, height=295), polygon=[Point(x=8, y=8), Point(x=9, y=303), Point(x=302, y=302), Point(x=303, y=9)], quality=1, orientation='UP')]
-2023-12-04 21:50:04,577 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:122] - bg - INFO: 123.png保存完成-生成用时：0.14s
-2023-12-04 21:50:18,778 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 21:50:18,779 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-04 21:50:23,383 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe5\xba\x9e\xe4\xbf\x8a\xe9\xb9\x8f', type='QRCODE', rect=Rect(left=8, top=8, width=295, height=295), polygon=[Point(x=8, y=8), Point(x=9, y=303), Point(x=302, y=302), Point(x=303, y=9)], quality=1, orientation='UP')]
-2023-12-04 21:50:44,012 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 21:50:44,012 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-04 21:50:44,078 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:122] - bg - INFO: 123.png保存完成-生成用时：0.07s
-2023-12-04 21:50:47,687 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:51] - produce - INFO: 123.png保存完成-生成用时：0.11s
-2023-12-04 21:50:54,030 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 21:50:54,030 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7351
-2023-12-04 21:50:57,980 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe5\xba\x9e\xe4\xbf\x8a\xe9\xb9\x8f123', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
-2023-12-04 21:51:03,276 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:51] - produce - INFO: 123.png保存完成-生成用时：0.10s
-2023-12-04 21:51:08,387 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 21:51:08,387 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7304
-2023-12-04 21:51:12,343 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe8\xa0\x8e\xe6\xa8\x94\xef\xbd\xbf\xe4\xbc\x81\xef\xbd\xb9\xe8\xa1\x93pp123', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
-2023-12-04 21:51:53,119 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:51] - produce - INFO: 123.png保存完成-生成用时：0.10s
-2023-12-04 21:51:56,745 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 21:51:56,747 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7113
-2023-12-04 21:52:01,322 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe5\xba\x9e\xe4\xbf\x8a\xe9\xb9\x8f ppp123', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
-2023-12-04 22:41:00,301 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 22:41:00,302 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 20463
-2023-12-04 22:41:05,561 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xc3\xa4\xc2\xbd\xc2\xa0\xc3\xa5\xc2\xa5\xc2\xbd', type='QRCODE', rect=Rect(left=114, top=114, width=83, height=83), polygon=[Point(x=114, y=114), Point(x=114, y=197), Point(x=197, y=197), Point(x=197, y=114)], quality=1, orientation='UP'), Decoded(data=b'\xc3\xa4\xc2\xbd\xc2\xa0\xc3\xa5\xc2\xa5\xc2\xbd', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
-2023-12-04 22:41:13,449 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 22:41:13,449 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7482
-2023-12-04 22:41:17,798 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xc3\xa4\xc2\xbd\xc2\xa0\xc3\xa5\xc2\xa5\xc2\xbd', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation='UP')]
-2023-12-04 22:45:00,202 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 22:45:00,203 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7482
-2023-12-04 22:45:05,785 - 二维码小工具-v2.2-BUCTPJP[LSG].pyw[line:151] - parse - DEBUG: [Decoded(data=b'\xe4\xbd\xa0\xe5\xa5\xbd', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation=None)]
-2023-12-04 23:27:44,772 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:51] - produce - INFO: common.png保存完成-生成用时：0.36s
-2023-12-04 23:28:02,404 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 23:28:02,404 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 8192
-2023-12-04 23:29:02,693 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:74] - logo - INFO: logo.png保存完成-生成用时：12.23s
-2023-12-04 23:37:33,813 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:74] - logo - INFO: logo.png保存完成-生成用时：350.11s
-2023-12-04 23:48:40,431 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 23:48:40,432 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 8192
-2023-12-04 23:49:26,567 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-04 23:49:26,567 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'sRGB' 41 1
-2023-12-04 23:49:26,568 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 54 4
-2023-12-04 23:49:26,568 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'pHYs' 70 9
-2023-12-04 23:49:26,568 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 91 65445
-2023-12-04 23:50:47,244 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:74] - logo - INFO: logo.png保存完成-生成用时：6.05s
-2023-12-04 23:51:52,518 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:74] - logo - INFO: logo.png保存完成-生成用时：5.59s
-2023-12-04 23:55:58,143 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:51] - produce - INFO: logo.png保存完成-生成用时：0.26s
-2023-12-04 23:57:23,643 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:51] - produce - INFO: logo.png保存完成-生成用时：0.25s
-
-2023-12-05 00:00:32,047 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:51] - produce - INFO: logo.png保存完成-生成用时：0.25s
-2023-12-05 00:34:48,494 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:59] - produce - INFO: E:/桌面/你好.png保存完成-生成用时：21.08s
-2023-12-05 08:40:26,911 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:289] - <module> - INFO: GUI加载成功，程序启动
-2023-12-05 08:43:01,600 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:109] - logo - INFO: 用户选择 模式二
-2023-12-05 08:43:48,441 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:140] - logo - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/logo-mod2.png保存完成-生成用时：11.60s
-2023-12-05 08:46:19,378 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:83] - logo - INFO: 用户选择 模式一
-2023-12-05 08:48:53,446 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:289] - <module> - INFO: GUI加载成功，程序启动
-2023-12-05 08:49:07,037 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 08:49:07,037 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 10620
-2023-12-05 08:49:12,532 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:268] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\x99\xae\xe9\x80\x9a\xe6\xa0\xb7\xe5\xbc\x8f\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\nThis is a regular style QR code', type='QRCODE', rect=Rect(left=8, top=8, width=360, height=360), polygon=[Point(x=8, y=8), Point(x=10, y=367), Point(x=368, y=368), Point(x=367, y=10)], quality=1, orientation=None)]
-2023-12-05 08:49:42,441 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 08:49:42,442 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'sRGB' 41 1
-2023-12-05 08:49:42,442 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 54 4
-2023-12-05 08:49:42,442 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'pHYs' 70 9
-2023-12-05 08:49:42,442 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 91 65445
-2023-12-05 08:50:20,321 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:60] - produce - INFO: 用户选择 模式二
-2023-12-05 08:50:28,280 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:76] - produce - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/common.png保存完成-生成用时：0.09s
-2023-12-05 08:51:04,099 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:60] - produce - INFO: 用户选择 模式二
-2023-12-05 08:51:15,313 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:76] - produce - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/common-mod2.png保存完成-生成用时：0.12s
-2023-12-05 08:51:23,128 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:38] - produce - INFO: 用户选择 模式一
-2023-12-05 08:51:36,239 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:56] - produce - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/common-mod1.png保存完成-生成用时：0.22s
-2023-12-05 08:53:25,216 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 08:53:25,217 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 30699
-2023-12-05 08:53:28,693 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:268] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xba\x8c\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89logo\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is theQR code with logo by mod2\n', type='QRCODE', rect=Rect(left=7, top=7, width=425, height=425), polygon=[Point(x=7, y=7), Point(x=10, y=432), Point(x=431, y=430), Point(x=432, y=10)], quality=1, orientation=None)]
-2023-12-05 08:54:01,426 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:83] - logo - INFO: 用户选择 模式一
-2023-12-05 08:54:51,568 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:105] - logo - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/logo-mod1.png保存完成-生成用时：22.62s
-2023-12-05 08:54:58,479 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 08:54:58,479 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 14610
-2023-12-05 08:55:01,969 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:268] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xb8\x80\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe6\x99\xae\xe9\x80\x9a\xe6\xa0\xb7\xe5\xbc\x8f\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a regular style QR code by mod2', type='QRCODE', rect=Rect(left=8, top=8, width=423, height=423), polygon=[Point(x=8, y=8), Point(x=10, y=431), Point(x=431, y=431), Point(x=431, y=10)], quality=1, orientation=None)]
-2023-12-05 08:55:09,795 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 08:55:09,795 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 3127
-2023-12-05 08:55:13,255 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:268] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xb8\x80\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe6\x99\xae\xe9\x80\x9a\xe6\xa0\xb7\xe5\xbc\x8f\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a regular style QR code by mod2', type='QRCODE', rect=Rect(left=8, top=8, width=423, height=423), polygon=[Point(x=8, y=8), Point(x=10, y=431), Point(x=431, y=431), Point(x=431, y=10)], quality=1, orientation=None)]
-2023-12-05 08:57:17,864 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:292] - <module> - INFO: GUI加载成功，程序启动
-2023-12-05 09:00:00,242 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:292] - <module> - INFO: GUI加载成功，程序启动
-2023-12-05 09:00:15,788 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:60] - produce - INFO: 用户选择 模式二
-2023-12-05 09:00:25,115 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:77] - produce - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/common-mod2.png保存完成-生成用时：0.13s
-2023-12-05 09:01:35,390 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:149] - bg - INFO: 用户选择 模式一
-2023-12-05 09:04:09,632 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:292] - <module> - INFO: GUI加载成功，程序启动
-2023-12-05 09:04:43,804 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:149] - bg - INFO: 用户选择 模式一
-2023-12-05 09:05:31,259 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:194] - bg - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/bg-mod1.png保存完成-生成用时：0.20s
-2023-12-05 09:06:09,855 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 09:06:09,855 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-05 09:06:14,552 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:271] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xb8\x80\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89\xe8\x83\x8c\xe6\x99\xaf\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a QR code by with background mod1', type='QRCODE', rect=Rect(left=8, top=8, width=424, height=424), polygon=[Point(x=8, y=8), Point(x=10, y=431), Point(x=432, y=432), Point(x=431, y=10)], quality=1, orientation=None)]
-2023-12-05 09:10:50,081 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:275] - <module> - INFO: GUI加载成功，程序启动
-2023-12-05 09:13:15,713 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:184] - bg - INFO: 用户选择 模式二
-2023-12-05 09:13:31,878 - Image.py[line:369] - init - DEBUG: Importing BlpImagePlugin
-2023-12-05 09:13:31,881 - Image.py[line:369] - init - DEBUG: Importing BmpImagePlugin
-2023-12-05 09:13:31,882 - Image.py[line:369] - init - DEBUG: Importing BufrStubImagePlugin
-2023-12-05 09:13:31,884 - Image.py[line:369] - init - DEBUG: Importing CurImagePlugin
-2023-12-05 09:13:31,888 - Image.py[line:369] - init - DEBUG: Importing DcxImagePlugin
-2023-12-05 09:13:31,891 - Image.py[line:369] - init - DEBUG: Importing DdsImagePlugin
-2023-12-05 09:13:31,894 - Image.py[line:369] - init - DEBUG: Importing EpsImagePlugin
-2023-12-05 09:13:32,208 - Image.py[line:369] - init - DEBUG: Importing FitsImagePlugin
-2023-12-05 09:13:32,213 - Image.py[line:369] - init - DEBUG: Importing FitsStubImagePlugin
-2023-12-05 09:13:32,215 - Image.py[line:369] - init - DEBUG: Importing FliImagePlugin
-2023-12-05 09:13:32,217 - Image.py[line:369] - init - DEBUG: Importing FpxImagePlugin
-2023-12-05 09:13:32,222 - Image.py[line:372] - init - DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-12-05 09:13:32,222 - Image.py[line:369] - init - DEBUG: Importing FtexImagePlugin
-2023-12-05 09:13:32,225 - Image.py[line:369] - init - DEBUG: Importing GbrImagePlugin
-2023-12-05 09:13:32,228 - Image.py[line:369] - init - DEBUG: Importing GifImagePlugin
-2023-12-05 09:13:32,229 - Image.py[line:369] - init - DEBUG: Importing GribStubImagePlugin
-2023-12-05 09:13:32,231 - Image.py[line:369] - init - DEBUG: Importing Hdf5StubImagePlugin
-2023-12-05 09:13:32,233 - Image.py[line:369] - init - DEBUG: Importing IcnsImagePlugin
-2023-12-05 09:13:32,240 - Image.py[line:369] - init - DEBUG: Importing IcoImagePlugin
-2023-12-05 09:13:32,242 - Image.py[line:369] - init - DEBUG: Importing ImImagePlugin
-2023-12-05 09:13:32,245 - Image.py[line:369] - init - DEBUG: Importing ImtImagePlugin
-2023-12-05 09:13:32,248 - Image.py[line:369] - init - DEBUG: Importing IptcImagePlugin
-2023-12-05 09:13:32,250 - Image.py[line:369] - init - DEBUG: Importing JpegImagePlugin
-2023-12-05 09:13:32,250 - Image.py[line:369] - init - DEBUG: Importing Jpeg2KImagePlugin
-2023-12-05 09:13:32,251 - Image.py[line:369] - init - DEBUG: Importing McIdasImagePlugin
-2023-12-05 09:13:32,253 - Image.py[line:369] - init - DEBUG: Importing MicImagePlugin
-2023-12-05 09:13:32,259 - Image.py[line:372] - init - DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-12-05 09:13:32,259 - Image.py[line:369] - init - DEBUG: Importing MpegImagePlugin
-2023-12-05 09:13:32,262 - Image.py[line:369] - init - DEBUG: Importing MpoImagePlugin
-2023-12-05 09:13:32,264 - Image.py[line:369] - init - DEBUG: Importing MspImagePlugin
-2023-12-05 09:13:32,266 - Image.py[line:369] - init - DEBUG: Importing PalmImagePlugin
-2023-12-05 09:13:32,269 - Image.py[line:369] - init - DEBUG: Importing PcdImagePlugin
-2023-12-05 09:13:32,272 - Image.py[line:369] - init - DEBUG: Importing PcxImagePlugin
-2023-12-05 09:13:32,272 - Image.py[line:369] - init - DEBUG: Importing PdfImagePlugin
-2023-12-05 09:13:32,293 - Image.py[line:369] - init - DEBUG: Importing PixarImagePlugin
-2023-12-05 09:13:32,295 - Image.py[line:369] - init - DEBUG: Importing PngImagePlugin
-2023-12-05 09:13:32,296 - Image.py[line:369] - init - DEBUG: Importing PpmImagePlugin
-2023-12-05 09:13:32,296 - Image.py[line:369] - init - DEBUG: Importing PsdImagePlugin
-2023-12-05 09:13:32,298 - Image.py[line:369] - init - DEBUG: Importing SgiImagePlugin
-2023-12-05 09:13:32,300 - Image.py[line:369] - init - DEBUG: Importing SpiderImagePlugin
-2023-12-05 09:13:32,302 - Image.py[line:369] - init - DEBUG: Importing SunImagePlugin
-2023-12-05 09:13:32,306 - Image.py[line:369] - init - DEBUG: Importing TgaImagePlugin
-2023-12-05 09:13:32,308 - Image.py[line:369] - init - DEBUG: Importing TiffImagePlugin
-2023-12-05 09:13:32,308 - Image.py[line:369] - init - DEBUG: Importing WebPImagePlugin
-2023-12-05 09:13:32,314 - Image.py[line:369] - init - DEBUG: Importing WmfImagePlugin
-2023-12-05 09:13:32,318 - Image.py[line:369] - init - DEBUG: Importing XbmImagePlugin
-2023-12-05 09:13:32,323 - Image.py[line:369] - init - DEBUG: Importing XpmImagePlugin
-2023-12-05 09:13:32,326 - Image.py[line:369] - init - DEBUG: Importing XVThumbImagePlugin
-2023-12-05 09:13:55,148 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:225] - bg - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/bg-mod2.png保存完成-生成用时：0.68s
-2023-12-05 09:14:06,374 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 09:14:06,374 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-05 09:14:11,060 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:252] - parse - INFO: []
-2023-12-05 09:14:18,573 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 09:14:18,573 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-05 09:14:22,680 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:252] - parse - INFO: []
-2023-12-05 09:15:24,699 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:275] - <module> - INFO: GUI加载成功，程序启动
-2023-12-05 09:15:43,032 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:184] - bg - INFO: 用户选择 模式二
-2023-12-05 09:15:53,629 - Image.py[line:369] - init - DEBUG: Importing BlpImagePlugin
-2023-12-05 09:15:53,632 - Image.py[line:369] - init - DEBUG: Importing BmpImagePlugin
-2023-12-05 09:15:53,632 - Image.py[line:369] - init - DEBUG: Importing BufrStubImagePlugin
-2023-12-05 09:15:53,633 - Image.py[line:369] - init - DEBUG: Importing CurImagePlugin
-2023-12-05 09:15:53,635 - Image.py[line:369] - init - DEBUG: Importing DcxImagePlugin
-2023-12-05 09:15:53,639 - Image.py[line:369] - init - DEBUG: Importing DdsImagePlugin
-2023-12-05 09:15:53,641 - Image.py[line:369] - init - DEBUG: Importing EpsImagePlugin
-2023-12-05 09:15:53,954 - Image.py[line:369] - init - DEBUG: Importing FitsImagePlugin
-2023-12-05 09:15:53,957 - Image.py[line:369] - init - DEBUG: Importing FitsStubImagePlugin
-2023-12-05 09:15:53,959 - Image.py[line:369] - init - DEBUG: Importing FliImagePlugin
-2023-12-05 09:15:53,961 - Image.py[line:369] - init - DEBUG: Importing FpxImagePlugin
-2023-12-05 09:15:53,965 - Image.py[line:372] - init - DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-12-05 09:15:53,965 - Image.py[line:369] - init - DEBUG: Importing FtexImagePlugin
-2023-12-05 09:15:53,967 - Image.py[line:369] - init - DEBUG: Importing GbrImagePlugin
-2023-12-05 09:15:53,970 - Image.py[line:369] - init - DEBUG: Importing GifImagePlugin
-2023-12-05 09:15:53,970 - Image.py[line:369] - init - DEBUG: Importing GribStubImagePlugin
-2023-12-05 09:15:53,972 - Image.py[line:369] - init - DEBUG: Importing Hdf5StubImagePlugin
-2023-12-05 09:15:53,975 - Image.py[line:369] - init - DEBUG: Importing IcnsImagePlugin
-2023-12-05 09:15:53,981 - Image.py[line:369] - init - DEBUG: Importing IcoImagePlugin
-2023-12-05 09:15:53,983 - Image.py[line:369] - init - DEBUG: Importing ImImagePlugin
-2023-12-05 09:15:53,986 - Image.py[line:369] - init - DEBUG: Importing ImtImagePlugin
-2023-12-05 09:15:53,988 - Image.py[line:369] - init - DEBUG: Importing IptcImagePlugin
-2023-12-05 09:15:53,990 - Image.py[line:369] - init - DEBUG: Importing JpegImagePlugin
-2023-12-05 09:15:53,990 - Image.py[line:369] - init - DEBUG: Importing Jpeg2KImagePlugin
-2023-12-05 09:15:53,990 - Image.py[line:369] - init - DEBUG: Importing McIdasImagePlugin
-2023-12-05 09:15:53,992 - Image.py[line:369] - init - DEBUG: Importing MicImagePlugin
-2023-12-05 09:15:53,997 - Image.py[line:372] - init - DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-12-05 09:15:53,997 - Image.py[line:369] - init - DEBUG: Importing MpegImagePlugin
-2023-12-05 09:15:53,999 - Image.py[line:369] - init - DEBUG: Importing MpoImagePlugin
-2023-12-05 09:15:54,001 - Image.py[line:369] - init - DEBUG: Importing MspImagePlugin
-2023-12-05 09:15:54,003 - Image.py[line:369] - init - DEBUG: Importing PalmImagePlugin
-2023-12-05 09:15:54,005 - Image.py[line:369] - init - DEBUG: Importing PcdImagePlugin
-2023-12-05 09:15:54,008 - Image.py[line:369] - init - DEBUG: Importing PcxImagePlugin
-2023-12-05 09:15:54,008 - Image.py[line:369] - init - DEBUG: Importing PdfImagePlugin
-2023-12-05 09:15:54,029 - Image.py[line:369] - init - DEBUG: Importing PixarImagePlugin
-2023-12-05 09:15:54,031 - Image.py[line:369] - init - DEBUG: Importing PngImagePlugin
-2023-12-05 09:15:54,031 - Image.py[line:369] - init - DEBUG: Importing PpmImagePlugin
-2023-12-05 09:15:54,031 - Image.py[line:369] - init - DEBUG: Importing PsdImagePlugin
-2023-12-05 09:15:54,033 - Image.py[line:369] - init - DEBUG: Importing SgiImagePlugin
-2023-12-05 09:15:54,034 - Image.py[line:369] - init - DEBUG: Importing SpiderImagePlugin
-2023-12-05 09:15:54,036 - Image.py[line:369] - init - DEBUG: Importing SunImagePlugin
-2023-12-05 09:15:54,039 - Image.py[line:369] - init - DEBUG: Importing TgaImagePlugin
-2023-12-05 09:15:54,041 - Image.py[line:369] - init - DEBUG: Importing TiffImagePlugin
-2023-12-05 09:15:54,041 - Image.py[line:369] - init - DEBUG: Importing WebPImagePlugin
-2023-12-05 09:15:54,044 - Image.py[line:369] - init - DEBUG: Importing WmfImagePlugin
-2023-12-05 09:15:54,047 - Image.py[line:369] - init - DEBUG: Importing XbmImagePlugin
-2023-12-05 09:15:54,051 - Image.py[line:369] - init - DEBUG: Importing XpmImagePlugin
-2023-12-05 09:15:54,054 - Image.py[line:369] - init - DEBUG: Importing XVThumbImagePlugin
-2023-12-05 09:16:08,975 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:225] - bg - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/bg-mod2.png保存完成-生成用时：0.67s
-2023-12-05 09:16:13,604 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 09:16:13,604 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-05 09:16:18,886 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:252] - parse - INFO: []
-2023-12-05 09:16:45,086 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 09:16:45,086 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'sRGB' 41 1
-2023-12-05 09:16:45,086 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 54 4
-2023-12-05 09:16:45,086 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'pHYs' 70 9
-2023-12-05 09:16:45,086 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 91 65445
-2023-12-05 09:17:09,864 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:184] - bg - INFO: 用户选择 模式二
-2023-12-05 09:17:39,804 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:225] - bg - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/bg-mod2.png保存完成-生成用时：0.21s
-2023-12-05 09:17:50,467 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 09:17:50,468 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-05 09:17:54,579 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:252] - parse - INFO: []
-2023-12-05 09:18:22,607 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:184] - bg - INFO: 用户选择 模式二
-2023-12-05 09:18:53,583 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:225] - bg - INFO: D:/学习/理科类/编程设计/python/二维码小工具/img-Example/bg-mod2.png保存完成-生成用时：0.19s
-2023-12-05 09:18:57,292 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
-2023-12-05 09:18:57,292 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 65536
-2023-12-05 09:19:01,399 - 二维码小工具-v3.0-BUCTPJP[LSG].pyw[line:252] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xba\x8c\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89\xe8\x83\x8c\xe6\x99\xaf\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a QR code by with background mod2', type='QRCODE', rect=Rect(left=32, top=32, width=423, height=423), polygon=[Point(x=32, y=32), Point(x=34, y=455), Point(x=455, y=455), Point(x=455, y=34)], quality=1, orientation=None)]
+2023-12-07 13:05:08,806 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:449] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-07 13:05:08,806 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:451] - <module> - INFO: ---帮助模块加载完成---
+2023-12-07 13:05:08,807 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:454] - <module> - INFO: ---反馈模块加载完成---
+2023-12-07 13:05:17,990 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:44] - produce - INFO: 用户选择 模式一
+2023-12-07 13:05:18,093 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++创建临时文件夹++
+2023-12-07 13:05:18,145 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:282] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-07 13:05:18,147 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:286] - p_vew - INFO: ++清楚临时文件夹++
+2023-12-07 13:05:26,780 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:274] - save - INFO: E:/桌面/235.png保存完成-生成用时：0.10s
+2023-12-07 13:05:32,192 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:81] - logo - INFO: 用户选择 模式一
+2023-12-07 13:05:34,310 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-07 13:05:34,310 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 12313
+2023-12-07 13:05:34,377 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++创建临时文件夹++
+2023-12-07 13:05:34,393 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:282] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-07 13:05:34,395 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:286] - p_vew - INFO: ++清楚临时文件夹++
+2023-12-07 13:05:42,031 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:274] - save - INFO: E:/桌面/235.png.png保存完成-生成用时：0.04s
+2023-12-07 13:05:44,823 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:141] - bg - INFO: 用户选择 模式一
+2023-12-07 13:05:51,632 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-07 13:05:51,632 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 12313
+2023-12-07 13:05:51,693 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++创建临时文件夹++
+2023-12-07 13:05:51,713 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:282] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-07 13:05:51,715 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:286] - p_vew - INFO: ++清楚临时文件夹++
+2023-12-07 13:06:01,058 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:274] - save - INFO: E:/桌面/235.png.png.png保存完成-生成用时：0.12s
+2023-12-07 13:06:06,746 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-07 13:06:06,747 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 12655
+2023-12-07 13:06:06,751 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++创建临时文件夹++
+2023-12-07 13:06:06,770 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:282] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-07 13:06:06,773 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:286] - p_vew - INFO: ++清楚临时文件夹++
+2023-12-07 13:06:06,779 - 二维码小工具-v3.1-BUCTPJP[LSG].pyw[line:257] - parse - INFO: [Decoded(data=b'123', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation=None)]
+2023-12-07 13:08:53,142 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:448] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-07 13:08:53,143 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:450] - <module> - INFO: ---帮助模块加载完成---
+2023-12-07 13:08:53,143 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:453] - <module> - INFO: ---反馈模块加载完成---
+2023-12-07 13:14:54,195 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:448] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-07 13:14:54,196 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:450] - <module> - INFO: ---帮助模块加载完成---
+2023-12-07 13:14:54,196 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:453] - <module> - INFO: ---反馈模块加载完成---
+2023-12-07 13:45:17,347 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:448] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-07 13:45:17,347 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:450] - <module> - INFO: ---帮助模块加载完成---
+2023-12-07 13:45:17,347 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:453] - <module> - INFO: ---反馈模块加载完成---
+2023-12-07 13:45:28,317 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-07 13:45:28,317 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 41 4
+2023-12-07 13:45:28,318 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'cHRM' 57 32
+2023-12-07 13:45:28,318 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'bKGD' 101 6
+2023-12-07 13:45:28,318 - PngImagePlugin.py[line:738] - _open - DEBUG: b'bKGD' 101 6 (unknown)
+2023-12-07 13:45:28,318 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 119 32768
+2023-12-07 13:45:28,324 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 176625 37
+2023-12-07 13:45:28,324 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 176674 37
+2023-12-07 13:45:28,335 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:279] - p_vew - INFO: ++创建临时文件夹++
+2023-12-07 13:45:28,376 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:281] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-07 13:45:28,380 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:285] - p_vew - INFO: ++清除临时文件夹++
+2023-12-07 13:45:28,394 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:257] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xba\x8c\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89\xe8\x83\x8c\xe6\x99\xaf\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a QR code by with background mod2', type='QRCODE', rect=Rect(left=32, top=32, width=423, height=423), polygon=[Point(x=32, y=32), Point(x=34, y=455), Point(x=455, y=455), Point(x=455, y=34)], quality=1, orientation=None)]
