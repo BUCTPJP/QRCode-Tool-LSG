@@ -1,16 +1,17 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 '''
-@File    :   二维码小工具-v3.2-BUCTPJP[LSG].pyw
-@Time    :   2023/12/07 12:11:08
+@File    :   二维码小工具-v3.3-BUCTPJP[LSG].pyw
+@Time    :   2023/12/09 13:32:41
 @Author  :   BUCTPJP 
-@Version :   3.2
+@Version :   3.3
 @Contact :   pjp1095765918@gmail.com
 @License :   Copyright (C) 2023 , Inc. All Rights Reserved 
 @Desc    :   None
 '''
 
 # here put the import lib
+
 
 import qrcode,logging,time,sys,pyzbar,tempfile,os,webbrowser
 import pyzbar.pyzbar as pyzbar
@@ -41,7 +42,7 @@ def produce():          #正常
     global runtime,img_s
     start = time.time()
     if myWindow.mod.checkedId() == 1:
-        logger.info('用户选择 模式一')
+        logger.info('用户选择 模式一')                  #TODO:info运行信息输出
         string= myWindow.text1.toPlainText()            #获取用户输入内容
         qr = qrcode.QRCode(
                 version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
@@ -57,9 +58,9 @@ def produce():          #正常
         p_vew(img_s)    
     elif myWindow.mod.checkedId() == -1:
         QMessageBox.critical(myWindow, "错误", "未选择生成模式")
-        logger.error("用户未选择生成模式")
+        logger.error("用户未选择生成模式")                      #TODO:error错误信息输出
     else:
-        logger.info('用户选择 模式二')
+        logger.info('用户选择 模式二')                  #TODO:info运行信息输出
         string = myWindow.text1.toPlainText()         #获取用户输入内容
         qr = qrcode.QRCode(
                 version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
@@ -78,7 +79,7 @@ def logo():             #带logo
     global runtime,img_s
     start = time.time()  
     if myWindow.mod.checkedId() == 1:
-        logger.info('用户选择 模式一')
+        logger.info('用户选择 模式一')                      #TODO:info运行信息输出
         string = myWindow.text1.toPlainText()            #获取用户输入内容 
         qr = qrcode.QRCode(
                 version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
@@ -91,17 +92,20 @@ def logo():             #带logo
         end = time.time()                    
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
-        image= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
-        image = image[0]
-        img = qr.make_image(back_color='#FFF',image_factory=StyledPilImage, module_drawer=RoundedModuleDrawer(),embeded_image_path=image)
-        img_s = img.convert('RGB')
-        runtime = "生成用时：{:.2f}s".format(end - start)
-        p_vew(img_s)   
+        image,type = QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
+        if image == (''):
+            logger.warning('用户未选择图片退出')            #TODO:warning警告输出
+            pass
+        else:
+            img = qr.make_image(back_color='#FFF',image_factory=StyledPilImage, module_drawer=RoundedModuleDrawer(),embeded_image_path=image)
+            img_s = img.convert('RGB')
+            runtime = "生成用时：{:.2f}s".format(end - start)
+            p_vew(img_s)   
     elif myWindow.mod.checkedId() == -1:
         QMessageBox.critical(myWindow, "错误", "未选择生成模式")
-        logger.error("用户未选择生成模式")
+        logger.error("用户未选择生成模式")                          #TODO:error错误信息输出
     else:
-        logger.info('用户选择 模式二')
+        logger.info('用户选择 模式二')                               #TODO:info运行信息输出
         string= myWindow.text1.toPlainText()
         qr = qrcode.QRCode(
                 version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
@@ -115,30 +119,33 @@ def logo():             #带logo
         end1 = time.time()                          
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
-        image= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
-        start1 = time.time()
-        image = image[0]
-        icon = Image.open(image).convert('RGBA')                   #转换为RGBA4通道
-        img_w, img_h = img.size                                    #获得二维码尺寸
-        size_w,size_h = int(img_w / 4),int(img_h / 4)
-        icon_w, icon_h = icon.size
-        if icon_w > size_w:                                        #调整logo图片大小
-            icon_w = size_w
-        if icon_h > size_h:
-            icon_h = size_h
-        icon = icon.resize((icon_w, icon_h),Image.Resampling.LANCZOS)
-        w,h = int((img_w - icon_w) / 2),int((img_h - icon_h) / 2)
-        img.paste(icon, (w, h), icon)                              #将logo图片贴在二维码指定位置
-        img_s = img.convert('RGB')
-        end = time.time()
-        runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))    
-        p_vew(img_s)   
+        image,type= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
+        if image == (''):
+            logger.warning('用户未选择图片退出')            #TODO:warning警告输出
+            pass
+        else:
+            start1 = time.time()
+            icon = Image.open(image).convert('RGBA')                   #转换为RGBA4通道
+            img_w, img_h = img.size                                    #获得二维码尺寸
+            size_w,size_h = int(img_w / 4),int(img_h / 4)
+            icon_w, icon_h = icon.size
+            if icon_w > size_w:                                        #调整logo图片大小
+                icon_w = size_w
+            if icon_h > size_h:
+                icon_h = size_h
+            icon = icon.resize((icon_w, icon_h),Image.Resampling.LANCZOS)
+            w,h = int((img_w - icon_w) / 2),int((img_h - icon_h) / 2)
+            img.paste(icon, (w, h), icon)                              #将logo图片贴在二维码指定位置
+            img_s = img.convert('RGB')
+            end = time.time()
+            runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))    
+            p_vew(img_s)   
 
 def bg():               #带背景
     global runtime,img_s
     start = time.time()                                         #开始计时
     if myWindow.mod.checkedId() == 1:
-        logger.info('用户选择 模式一')
+        logger.info('用户选择 模式一')                          #TODO:info运行信息输出
         string = myWindow.text1.toPlainText()
         box = 8
         if myWindow.text7.toPlainText() == '':
@@ -157,35 +164,38 @@ def bg():               #带背景
         end1 = time.time() 
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
-        image= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
-        start1 = time.time()
-        image = image[0]
-        bg = Image.open(image).convert('RGBA')
-        img_w, img_h = img.size
-        datas = img.getdata()
-        newData = []
-        for item in datas:
-            if item[0] > 220 and item[1] > 220 and item[2] > 220:# 将白色（也可以调整为其他颜色）全部变为透明
-                newData.append((255, 255, 255, 0))
-            else:
-                newData.append(item)
-        img.putdata(newData)
-        bg_w,bg_h = bg.size                                     #获得背景图片尺寸
-        if bg_w != img_w:                                       #改变背景图片大小与二维码一致
-            bg_w = img_w
-        if bg_h != img_h:
-            bg_h = img_h
-        bg_ = bg.resize((bg_w, bg_h),Image.Resampling.LANCZOS)
-        bg_.paste(img,(0,0),img)                                 #将二维码贴在背景图片上
-        img_s = bg_.convert('RGB')
-        end = time.time()  
-        runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))                 
-        p_vew(img_s)   
+        image,type= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
+        if image == (''):
+            logger.warning('用户未选择图片退出')            #TODO:warning警告输出
+            pass
+        else:
+            start1 = time.time()
+            bg = Image.open(image).convert('RGBA')
+            img_w, img_h = img.size
+            datas = img.getdata()
+            newData = []
+            for item in datas:
+                if item[0] > 220 and item[1] > 220 and item[2] > 220:# 将白色（也可以调整为其他颜色）全部变为透明
+                    newData.append((255, 255, 255, 0))
+                else:
+                    newData.append(item)
+            img.putdata(newData)
+            bg_w,bg_h = bg.size                                     #获得背景图片尺寸
+            if bg_w != img_w:                                       #改变背景图片大小与二维码一致
+                bg_w = img_w
+            if bg_h != img_h:
+                bg_h = img_h
+            bg_ = bg.resize((bg_w, bg_h),Image.Resampling.LANCZOS)
+            bg_.paste(img,(0,0),img)                                 #将二维码贴在背景图片上
+            img_s = bg_.convert('RGB')
+            end = time.time()  
+            runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))                 
+            p_vew(img_s)
     elif myWindow.mod.checkedId() == -1:
         QMessageBox.critical(myWindow, "错误", "未选择生成模式")
-        logger.error("用户未选择生成模式")
+        logger.error("用户未选择生成模式")                          #TODO:error错误信息输出
     else:
-        logger.info('用户选择 模式二')
+        logger.info('用户选择 模式二')                          #TODO:info运行信息输出
         string = myWindow.text1.toPlainText()
         box = 8
         if myWindow.text7.toPlainText() == '':
@@ -204,57 +214,64 @@ def bg():               #带背景
         end1 = time.time() 
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
-        image= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
-        start1 = time.time()
-        image = image[0]                   
-        bg = Image.open(image).convert('RGBA')
-        img_w, img_h = img.size
-        datas = img.getdata()
-        newData = []
-        for item in datas:
-            if item[0] > 220 and item[1] > 220 and item[2] > 220:
-                newData.append((255, 255, 255, 0))
-            else:
-                newData.append(item)
-        img.putdata(newData)
-        bg_w,bg_h = bg.size                                     #获得背景图片尺寸
-        if bg_w != img_w:                                       #改变背景图片大小与二维码一致
-            bg_w = img_w
-        if bg_h != img_h:
-            bg_h = img_h
-        bg_ = bg.resize((bg_w, bg_h),Image.Resampling.LANCZOS)
-        bg_.paste(img,(0,0),img)                                 #将二维码贴在背景图片上
-        img_s = bg_.convert('RGB')
-        end = time.time()  
-        runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))                 
-        p_vew(img_s)   
+        image,type = QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
+        if image == (''):
+            logger.warning('用户未选择图片退出')            #TODO:warning警告输出
+            pass
+        else:
+            start1 = time.time()                 
+            bg = Image.open(image).convert('RGBA')
+            img_w, img_h = img.size
+            datas = img.getdata()
+            newData = []
+            for item in datas:
+                if item[0] > 220 and item[1] > 220 and item[2] > 220:
+                    newData.append((255, 255, 255, 0))
+                else:
+                    newData.append(item)
+            img.putdata(newData)
+            bg_w,bg_h = bg.size                                     #获得背景图片尺寸
+            if bg_w != img_w:                                       #改变背景图片大小与二维码一致
+                bg_w = img_w
+            if bg_h != img_h:
+                bg_h = img_h
+            bg_ = bg.resize((bg_w, bg_h),Image.Resampling.LANCZOS)
+            bg_.paste(img,(0,0),img)                                 #将二维码贴在背景图片上
+            img_s = bg_.convert('RGB')
+            end = time.time()  
+            runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))                 
+            p_vew(img_s)   
 
 def parse():            #解析
     options = QFileDialog.Options()
     options |= QFileDialog.DontUseNativeDialog
-    image= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "All Files (*);;Image Files (*.jpg *.gif *.png *.jpeg)", options=options)
-    start = time.time()
-    img = Image.open(image[0])
-    #处理图片
-    img = ImageEnhance.Brightness(img).enhance(1.0)             #调整亮度        0~1~无穷
-    img = ImageEnhance.Sharpness(img).enhance(1.0)              #锐利化          0~1~2
-    img = ImageEnhance.Contrast(img).enhance(1.0)               #调整对比度      0~1~无穷
-    img = ImageEnhance.Color(img).enhance(1.0)                  #调整色彩平衡    0~1~无穷
-    #img = img.filter(SHARPEN)                                  #SHARPEN：补偿图像的轮廓，增强图像的边缘及灰度跳变的部分，使图像变得清晰
-    p_vew(img)  
-    texts = pyzbar.decode(img)                                  #解析到信息
-    if texts == []:
-        result = '此图片不包含二维码,或未解析到信息，请重试或更换'
-        myWindow.text6.setText(result)
-    else:                                              
-        for text in texts:                                      #查找输出结果
-            content = text.data.decode("utf-8")                 #data-内容；type-类型；rect-尺寸;polygon-边角定位点；quality-质量；orientation-方向
-            result = "二维码中的内容是:\n{}".format(content)   
-            myWindow.text6.setText(result)                                      
-    end = time.time()
-    runtime = "用时:{:.2f}s".format(end - start)             #解析内容格式化
-    myWindow.text5.setText(runtime)
-    logger.info(texts)  
+    image,type= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "All Files (*);;Image Files (*.jpg *.gif *.png *.jpeg)", options=options)
+    if image == (''):
+        logger.warning('用户未选择图片退出')            #TODO:warning警告输出
+        pass
+    else:
+        start = time.time()
+        img = Image.open(image)
+        #处理图片
+        img = ImageEnhance.Brightness(img).enhance(1.0)             #调整亮度        0~1~无穷
+        img = ImageEnhance.Sharpness(img).enhance(1.0)              #锐利化          0~1~2
+        img = ImageEnhance.Contrast(img).enhance(1.0)               #调整对比度      0~1~无穷
+        img = ImageEnhance.Color(img).enhance(1.0)                  #调整色彩平衡    0~1~无穷
+        #img = img.filter(SHARPEN)                                  #SHARPEN：补偿图像的轮廓，增强图像的边缘及灰度跳变的部分，使图像变得清晰
+        p_vew(img)  
+        texts = pyzbar.decode(img)                                  #解析到信息
+        if texts == []:
+            result = '此图片不包含二维码,或未解析到信息，请重试或更换'
+            myWindow.text6.setText(result)
+        else:                                              
+            for text in texts:                                      #查找输出结果
+                content = text.data.decode("utf-8")                 #data-内容；type-类型；rect-尺寸;polygon-边角定位点；quality-质量；orientation-方向
+                result = "二维码中的内容是:\n{}".format(content)   
+                myWindow.text6.setText(result)                                      
+        end = time.time()
+        runtime = "用时:{:.2f}s".format(end - start)             #解析内容格式化
+        myWindow.text5.setText(runtime)
+        logger.info(texts)                                     #TODO:info运行信息输出
 
 def clean():            #清空显示
     myWindow.text5.clear()
@@ -263,29 +280,30 @@ def clean():            #清空显示
 def save():             #保存图像
     options = QFileDialog.Options()
     options |= QFileDialog.DontUseNativeDialog
-    file_path = QFileDialog.getSaveFileName(myWindow, "保存文件", "", "PNG(*.png);;JPG(*.jpg)", options=options)
-    if file_path == ('', ''):
+    file_path,type = QFileDialog.getSaveFileName(myWindow, "保存文件", "", "PNG(*.png);;JPG(*.jpg)", options=options)
+    if file_path == (''):
+        logger.warning('用户未选择图片退出')            #TODO:warning警告输出
         pass
     else:
-        file_path = file_path[0]+file_path[1][5:9]
+        file_path = file_path+type[5:9]
         if file_path:
             img_s.save(file_path,quality=100)               
-        logger.info(file_path + '保存完成-'+ runtime)
+        logger.info(file_path + '保存完成-'+ runtime)   #TODO:info运行信息输出
         myWindow.text4.clear()
         myWindow.text4.setText(file_path+ '保存完成' + '\n' + runtime)
 
 def p_vew(img):         #预览图像
     temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.png')
-    logger.info('++创建临时文件夹++')
+    logger.info('++创建临时文件夹++')                   #TODO:info运行信息输出
     img.resize((350, 350),Image.Resampling.LANCZOS).save(temp_file.name)
-    logger.info('++将图片保存为临时文件++')
+    logger.info('++将图片保存为临时文件++')             #TODO:info运行信息输出
     pixmap = QPixmap(temp_file.name)
     myWindow.privew.setPixmap(pixmap)
     temp_file.close()
-    logger.info('++清除临时文件夹++')
+    logger.info('++清除临时文件夹++')                   #TODO:info运行信息输出
 
 def description():      #使用说明
-    os.system(r'v3.2使用说明.txt')
+    os.system(r'v3.3使用说明.txt')
 
 def git_open():         #打开github
     webbrowser.open('https://github.com/BUCTPJP/QRCode-Tool-LSG/issues')
@@ -445,12 +463,12 @@ class Child(QWidget):                                   #子窗口
 app = QApplication(sys.argv)
 myWindow = MyWindow()               #实例化
 myWindow.show()
-logger.info('---GUI加载成功，程序启动---正在加载必要功能---')
+logger.info('---GUI加载成功，程序启动---正在加载必要功能---')        #TODO:info运行信息输出
 myWindow.explain.triggered.connect(description)
-logger.info('---帮助模块加载完成---')
+logger.info('---帮助模块加载完成---')                               #TODO:info运行信息输出
 myWindow.github.triggered.connect(git_open)
 myWindow.lsg.triggered.connect(lsg_open)
-logger.info('---反馈模块加载完成---')
+logger.info('---反馈模块加载完成---')                               #TODO:info运行信息输出
 myWindow.about.triggered.connect(myWindow.open_child_window)
 app.exec_()
 myWindow.close()

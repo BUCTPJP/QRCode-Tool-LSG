@@ -47,3 +47,114 @@
 2023-12-07 13:45:28,376 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:281] - p_vew - INFO: ++将图片保存为临时文件++
 2023-12-07 13:45:28,380 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:285] - p_vew - INFO: ++清除临时文件夹++
 2023-12-07 13:45:28,394 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:257] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xba\x8c\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89\xe8\x83\x8c\xe6\x99\xaf\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a QR code by with background mod2', type='QRCODE', rect=Rect(left=32, top=32, width=423, height=423), polygon=[Point(x=32, y=32), Point(x=34, y=455), Point(x=455, y=455), Point(x=455, y=34)], quality=1, orientation=None)]
+2023-12-09 12:55:46,661 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:448] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 12:55:46,662 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:450] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 12:55:46,663 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:453] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 12:56:18,697 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:186] - bg - ERROR: 用户未选择生成模式
+2023-12-09 12:56:25,957 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:188] - bg - INFO: 用户选择 模式二
+2023-12-09 12:59:08,968 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:449] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 12:59:08,968 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:451] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 12:59:08,969 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:454] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 12:59:13,471 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:81] - logo - INFO: 用户选择 模式一
+2023-12-09 13:00:56,076 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:450] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 13:00:56,077 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:452] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 13:00:56,077 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:455] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 13:00:59,575 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:81] - logo - INFO: 用户选择 模式一
+2023-12-09 13:01:51,056 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:451] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 13:01:51,057 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:453] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 13:01:51,057 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:456] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 13:01:57,482 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:105] - logo - ERROR: 用户未选择生成模式
+2023-12-09 13:01:58,505 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:81] - logo - INFO: 用户选择 模式一
+2023-12-09 13:02:44,474 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:447] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 13:02:44,475 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:449] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 13:02:44,475 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:452] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 13:02:52,030 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:81] - logo - INFO: 用户选择 模式一
+2023-12-09 13:03:17,300 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:278] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:03:17,317 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:03:17,320 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:284] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:05:36,232 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:447] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 13:05:36,232 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:449] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 13:05:36,232 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:452] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 13:05:41,220 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:139] - bg - INFO: 用户选择 模式一
+2023-12-09 13:09:47,404 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:446] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 13:09:47,404 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:448] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 13:09:47,404 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:451] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 13:09:52,389 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:44] - produce - INFO: 用户选择 模式一
+2023-12-09 13:09:52,502 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:277] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:09:52,559 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:279] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:09:52,561 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:283] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:11:51,876 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:447] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 13:11:51,876 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:449] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 13:11:51,877 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:452] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 13:12:03,954 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:447] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 13:12:03,954 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:449] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 13:12:03,954 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:452] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 13:12:07,787 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:44] - produce - INFO: 用户选择 模式一
+2023-12-09 13:12:07,892 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:278] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:12:07,943 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:12:07,946 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:284] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:12:22,025 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:272] - save - INFO: E:/桌面/测试.png保存完成-生成用时：0.10s
+2023-12-09 13:12:35,937 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:81] - logo - INFO: 用户选择 模式一
+2023-12-09 13:12:38,347 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:12:38,347 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7339
+2023-12-09 13:12:38,407 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:278] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:12:38,422 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:12:38,425 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:284] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:12:49,191 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:81] - logo - INFO: 用户选择 模式一
+2023-12-09 13:12:50,806 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:12:50,806 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7339
+2023-12-09 13:12:50,861 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:278] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:12:50,877 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:12:50,879 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:284] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:13:14,060 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:139] - bg - INFO: 用户选择 模式一
+2023-12-09 13:13:17,976 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:13:17,976 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7339
+2023-12-09 13:13:18,039 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:278] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:13:18,059 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:13:18,061 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:284] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:13:39,494 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:81] - logo - INFO: 用户选择 模式一
+2023-12-09 13:13:42,220 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:13:42,220 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 7339
+2023-12-09 13:13:42,276 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:278] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:13:42,293 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:13:42,295 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:284] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:13:51,055 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:272] - save - INFO: E:/桌面/测试.png保存完成-生成用时：0.04s
+2023-12-09 13:14:18,135 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:14:18,135 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 20270
+2023-12-09 13:14:18,140 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:278] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:14:18,155 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:280] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:14:18,157 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:284] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:14:18,163 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:253] - parse - INFO: [Decoded(data=b'123', type='QRCODE', rect=Rect(left=114, top=114, width=83, height=83), polygon=[Point(x=114, y=114), Point(x=114, y=197), Point(x=197, y=197), Point(x=197, y=114)], quality=1, orientation=None), Decoded(data=b'456', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation=None)]
+2023-12-09 13:33:50,780 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:446] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-09 13:33:50,780 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:448] - <module> - INFO: ---帮助模块加载完成---
+2023-12-09 13:33:50,780 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:451] - <module> - INFO: ---反馈模块加载完成---
+2023-12-09 13:34:03,704 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:45] - produce - INFO: 用户选择 模式一
+2023-12-09 13:34:03,809 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:277] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:34:03,865 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:279] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:34:03,867 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:283] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:34:06,166 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:82] - logo - INFO: 用户选择 模式一
+2023-12-09 13:34:10,671 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:34:10,671 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 20270
+2023-12-09 13:34:10,732 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:277] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:34:10,748 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:279] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:34:10,750 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:283] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:34:19,825 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:271] - save - INFO: E:/桌面/测试.png.png保存完成-生成用时：0.04s
+2023-12-09 13:34:25,599 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:34:25,599 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 21693
+2023-12-09 13:34:25,604 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:277] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:34:25,621 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:279] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:34:25,623 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:283] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:34:25,631 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:254] - parse - INFO: [Decoded(data=b'456', type='QRCODE', rect=Rect(left=114, top=114, width=83, height=83), polygon=[Point(x=114, y=114), Point(x=114, y=197), Point(x=197, y=197), Point(x=197, y=114)], quality=1, orientation=None), Decoded(data=b'456789', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation=None)]
+2023-12-09 13:34:33,327 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:34:33,327 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 20270
+2023-12-09 13:34:33,331 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:277] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:34:33,347 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:279] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:34:33,349 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:283] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:34:33,354 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:254] - parse - INFO: [Decoded(data=b'123', type='QRCODE', rect=Rect(left=114, top=114, width=83, height=83), polygon=[Point(x=114, y=114), Point(x=114, y=197), Point(x=197, y=197), Point(x=197, y=114)], quality=1, orientation=None), Decoded(data=b'456', type='QRCODE', rect=Rect(left=9, top=9, width=294, height=294), polygon=[Point(x=9, y=9), Point(x=9, y=303), Point(x=303, y=303), Point(x=303, y=9)], quality=1, orientation=None)]
+2023-12-09 13:34:37,612 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:82] - logo - INFO: 用户选择 模式一
+2023-12-09 13:34:39,490 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-09 13:34:39,490 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 20270
+2023-12-09 13:34:39,546 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:277] - p_vew - INFO: ++创建临时文件夹++
+2023-12-09 13:34:39,562 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:279] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-09 13:34:39,566 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:283] - p_vew - INFO: ++清除临时文件夹++
+2023-12-09 13:34:41,197 - 二维码小工具-v3.2-BUCTPJP[LSG].pyw[line:140] - bg - INFO: 用户选择 模式一
