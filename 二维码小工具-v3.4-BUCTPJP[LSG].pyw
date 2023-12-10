@@ -1,44 +1,46 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 '''
-@File    :   二维码小工具-v3.3-BUCTPJP[LSG].pyw
-@Time    :   2023/12/09 13:32:41
+@File    :   二维码小工具-v3.4-BUCTPJP[LSG].pyw
+@Time    :   2023/12/10 12:20:41
 @Author  :   BUCTPJP 
-@Version :   3.3
+@Version :   3.4
 @Contact :   pjp1095765918@gmail.com
 @License :   Copyright (C) 2023 , Inc. All Rights Reserved 
 @Desc    :   None
 '''
 
 # here put the import lib
-
-
 import qrcode,logging,time,sys,pyzbar,tempfile,os,webbrowser
-import pyzbar.pyzbar as pyzbar
-from PIL import Image,ImageEnhance
+from qrcode.image.styles.moduledrawers import RoundedModuleDrawer,GappedSquareModuleDrawer,CircleModuleDrawer,SquareModuleDrawer,VerticalBarsDrawer,HorizontalBarsDrawer
+from qrcode.image.styledpil import StyledPilImage
 from PIL.ImageFilter import SHARPEN
-from Ui_UI import Ui_MainWindow
+from PIL import Image,ImageEnhance
+import pyzbar.pyzbar as pyzbar
+from segno import helpers
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QPixmap,QIcon
 from PyQt5.QtCore import QSize,QMetaObject
 from PyQt5.QtWidgets import *
-from qrcode.image.styledpil import StyledPilImage
-from qrcode.image.styles.moduledrawers import RoundedModuleDrawer,GappedSquareModuleDrawer,CircleModuleDrawer,SquareModuleDrawer,VerticalBarsDrawer,HorizontalBarsDrawer
+from UI.Ui_主窗口 import Ui_MainWindow
+from UI.Ui_WIFI import Ui_WIFI
+from UI.Ui_名片 import Ui_identify
 
-#日志输出
+#TODO:日志输出
 logger = logging.getLogger('log')
 logging.basicConfig(format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(funcName)s - %(levelname)s: %(message)s',
                     level=logging.DEBUG,
                     filename='./log.log',
                     filemode='a',
                     encoding = 'utf-8')
-#方法
-def seek_color():       #颜色选择
+
+#TODO:方法
+def seek_color():       #FIXME:颜色选择
     global col_select
     col_select = QColorDialog.getColor()
     myWindow.text3.setText(str(col_select.name())) 
 
-def produce():          #正常
+def produce():          #FIXME:正常二维码
     global runtime,img_s
     start = time.time()
     if myWindow.mod.checkedId() == 1:
@@ -75,7 +77,7 @@ def produce():          #正常
         runtime = "生成用时：{:.2f}s".format(end - start)
         p_vew(img_s)   
 
-def logo():             #带logo
+def logo():             #FIXME:带logo二维码
     global runtime,img_s
     start = time.time()  
     if myWindow.mod.checkedId() == 1:
@@ -141,7 +143,7 @@ def logo():             #带logo
             runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))    
             p_vew(img_s)   
 
-def bg():               #带背景
+def bg():               #FIXME:带背景二维码
     global runtime,img_s
     start = time.time()                                         #开始计时
     if myWindow.mod.checkedId() == 1:
@@ -242,7 +244,7 @@ def bg():               #带背景
             runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))                 
             p_vew(img_s)   
 
-def parse():            #解析
+def parse():            #FIXME:解析二维码
     options = QFileDialog.Options()
     options |= QFileDialog.DontUseNativeDialog
     image,type= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "All Files (*);;Image Files (*.jpg *.gif *.png *.jpeg)", options=options)
@@ -273,26 +275,40 @@ def parse():            #解析
         myWindow.text5.setText(runtime)
         logger.info(texts)                                     #TODO:info运行信息输出
 
-def clean():            #清空显示
+def clean():            #FIXME:清空解析区显示
     myWindow.text5.clear()
     myWindow.text6.clear()
 
-def save():             #保存图像
+def save(img):          #FIXME:保存二维码图像
     options = QFileDialog.Options()
     options |= QFileDialog.DontUseNativeDialog
     file_path,type = QFileDialog.getSaveFileName(myWindow, "保存文件", "", "PNG(*.png);;JPG(*.jpg)", options=options)
     if file_path == (''):
-        logger.warning('用户未选择图片退出')            #TODO:warning警告输出
+        logger.warning('用户未选择路径退出')            #TODO:warning警告输出
         pass
     else:
         file_path = file_path+type[5:9]
         if file_path:
-            img_s.save(file_path,quality=100)               
+            img.save(file_path,quality=100)               
         logger.info(file_path + '保存完成-'+ runtime)   #TODO:info运行信息输出
         myWindow.text4.clear()
         myWindow.text4.setText(file_path+ '保存完成' + '\n' + runtime)
 
-def p_vew(img):         #预览图像
+def save_1(img):        #FIXME:保存wifi码/名片码图像
+    options = QFileDialog.Options()
+    options |= QFileDialog.DontUseNativeDialog
+    file_path,type = QFileDialog.getSaveFileName(myWindow, "保存文件", "", "PNG(*.png);;JPG(*.jpg)", options=options)
+    if file_path == (''):
+        logger.warning('用户未选择路径退出')            #TODO:warning警告输出
+        pass
+    else:
+        file_path = file_path+type[5:9]
+        if file_path:
+            img.save(file_path,scale = 10)               
+        logger.info(file_path + '保存完成-')   #TODO:info运行信息输出
+        QMessageBox.information(wifi_window, "提示", "保存完成",QMessageBox.Yes)
+
+def p_vew(img):         #FIXME:预览二维码图像
     temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.png')
     logger.info('++创建临时文件夹++')                   #TODO:info运行信息输出
     img.resize((350, 350),Image.Resampling.LANCZOS).save(temp_file.name)
@@ -302,17 +318,85 @@ def p_vew(img):         #预览图像
     temp_file.close()
     logger.info('++清除临时文件夹++')                   #TODO:info运行信息输出
 
-def description():      #使用说明
+def p_vew_1(img):       #FIXME:预览wifi码图像
+    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.png')
+    logger.info('++创建临时文件夹++')                   #TODO:info运行信息输出
+    img.save(temp_file.name)
+    logger.info('++将图片保存为临时文件++')             #TODO:info运行信息输出
+    pixmap = QPixmap(temp_file.name)
+    pixmap = pixmap.scaled(350, 350)
+    wifi_window.privew.setPixmap(pixmap)
+    temp_file.close()
+    logger.info('++清除临时文件夹++')                   #TODO:info运行信息输出
+
+def p_vew_2(img):       #FIXME:预览名片码图像
+    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.png')
+    logger.info('++创建临时文件夹++')                   #TODO:info运行信息输出
+    img.save(temp_file.name)
+    logger.info('++将图片保存为临时文件++')             #TODO:info运行信息输出
+    pixmap = QPixmap(temp_file.name)
+    pixmap = pixmap.scaled(350, 350)
+    identify_window.privew.setPixmap(pixmap)
+    temp_file.close()
+    logger.info('++清除临时文件夹++')                   #TODO:info运行信息输出
+
+def description():      #FIXME:使用说明
     os.system(r'v3.3使用说明.txt')
 
-def git_open():         #打开github
+def git_open():         #FIXME:打开github
     webbrowser.open('https://github.com/BUCTPJP/QRCode-Tool-LSG/issues')
 
-def lsg_open():         #打开lsg帖子
+def lsg_open():         #FIXME:打开lsg帖子
     webbrowser.open('https://www.52pojie.cn/forum.php?mod=viewthread&tid=1865282&page=1#pid48817438')
 
-#GUI
-class MyWindow(QMainWindow,Ui_MainWindow):              #主窗口
+def getwifi():          #FIXME:获取电脑中的WiFi信息
+    message = os.popen('netsh wlan show profiles').readlines()
+    wifi_name = {}
+    number = 0
+    QMessageBox.information(wifi_window, "提示", "正在查找，请耐心等待",QMessageBox.Yes)
+    logger.info('开始查找本机连接过WIFI信息')                                       #TODO:info运行信息输出
+    for i in message:
+        # 读取WiFi名称
+        if '所有用户配置文件' in i:
+            wifi = i.split(':')[1].replace('\n', '')
+            wifi = wifi.replace(' ', '')
+            # 根据WiFi名称查找密码
+            command = "netsh wlan show profiles name=" + wifi + " key=clear"
+            per_wifi = os.popen(command).readlines()
+            for k in per_wifi:
+                if '关键内容' in k:
+                    passwd = k.split(':')[1].replace('\n', '').replace(' ', '')
+                    wifi_name.update({wifi: passwd})
+                    number+=1
+    QMessageBox.information(wifi_window, "提示", "查找完成",QMessageBox.Yes)
+    logger.info('获取到{}条WIFI信息'.format(number))                                #TODO:info运行信息输出
+    wifi_window.form.setRowCount(number)
+    k=0
+    for i in wifi_name.keys():
+        wifi= QTableWidgetItem(str(i))
+        wifi_window.form.setItem(k, 0, wifi)
+        k+=1
+    k=0 
+    for j in wifi_name.values():
+        passwd = QTableWidgetItem(str(j))
+        wifi_window.form.setItem(k, 1, passwd)
+        k+=1
+
+def make_wificode():    #FIXME:生成wifi连接码
+    global wfcode
+    wfcode = helpers.make_wifi(ssid=wifi_window.lineEdit.text(),password=wifi_window.lineEdit_2.text(),security='WPA2',hidden=False)
+    p_vew_1(wfcode)
+
+def make_identifycode():#FIXME:生成名片码
+    global itcode
+    itcode = helpers.make_mecard(name=identify_window.lineEdit.text(),
+                                 email=identify_window.lineEdit_3.text(),
+                                 phone=identify_window.lineEdit_4.text(),
+                                 city=identify_window.lineEdit_2.text())
+    p_vew_2(itcode)
+
+#TODO:初始化GUI
+class MyWindow(QMainWindow,Ui_MainWindow):              #FIXME:主窗口
     def __init__(self):
         super().__init__()
         self.setupUi(self)
@@ -322,12 +406,33 @@ class MyWindow(QMainWindow,Ui_MainWindow):              #主窗口
         self.button3.clicked.connect(bg)
         self.button5.clicked.connect(parse)
         self.button6.clicked.connect(clean)
-        self.button7.clicked.connect(save)
-        self.child_window = Child()
-    def open_child_window(self):
-        self.child_window.show()
+        self.button7.clicked.connect(save) 
+    def open_child_window(self):                        #打开关于子窗口
+        child_window.show()
+    def open_wifi_window(self):                         #打开WIFI码子窗口
+        wifi_window.show()
+    def open_identify_window(self):                     #打开名片码子窗口
+        identify_window.show()
+      
+class WIFI(QWidget,Ui_WIFI):                            #FIXME:WIFI码子窗口
+    def __init__(self):
+        super().__init__()
+        self.setupUi(self)
+        self.retranslateUi(self)
+        self.form.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        self.bt3.clicked.connect(getwifi)
+        self.bt1.clicked.connect(make_wificode)
+        self.bt2.clicked.connect(lambda:save_1(wfcode))
 
-class Child(QWidget):                                   #子窗口
+class identify(QWidget,Ui_identify):                    #FIXME:名片码子窗口
+    def __init__(self):
+        super().__init__()
+        self.setupUi(self)
+        self.retranslateUi(self)
+        self.bt1.clicked.connect(make_identifycode)
+        self.bt2.clicked.connect(lambda:save_1(itcode))
+
+class Child(QWidget):                                   #FIXME:关于子窗口
     def __init__(self):
         super().__init__()
         self.setWindowTitle("关于")
@@ -459,10 +564,16 @@ class Child(QWidget):                                   #子窗口
         self.label_7.setText("<a href = 'https://www.52pojie.cn/forum.php?mod=viewthread&tid=1865282&page=1#pid48817438'>LSG</a>")
         self.label_6,self.label_7.setStyleSheet('QLabel {color: blue; text-decoration: underline}')
         self.label_6,self.label_7.setOpenExternalLinks(True)
-       
+
 app = QApplication(sys.argv)
-myWindow = MyWindow()               #实例化
+myWindow = MyWindow()                                   #TODO:实例化
+wifi_window = WIFI()
+identify_window = identify()  
+child_window = Child()           
+
 myWindow.show()
+
+logger.info('---日志模块加载完成---')
 logger.info('---GUI加载成功，程序启动---正在加载必要功能---')        #TODO:info运行信息输出
 myWindow.explain.triggered.connect(description)
 logger.info('---帮助模块加载完成---')                               #TODO:info运行信息输出
@@ -470,5 +581,10 @@ myWindow.github.triggered.connect(git_open)
 myWindow.lsg.triggered.connect(lsg_open)
 logger.info('---反馈模块加载完成---')                               #TODO:info运行信息输出
 myWindow.about.triggered.connect(myWindow.open_child_window)
+myWindow.wifi_code.triggered.connect(myWindow.open_wifi_window)
+logger.info('---WIFI码模块加载完成---')                               #TODO:info运行信息输出
+myWindow.identify_code.triggered.connect(myWindow.open_identify_window)
+logger.info('---名片码模块加载完成---')                               #TODO:info运行信息输出
+
 app.exec_()
 myWindow.close()

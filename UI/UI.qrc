@@ -1,0 +1,7 @@
+<RCC>
+  <qresource>
+    <file>../ico/名片.ico</file>
+    <file>../ico/wifi.ico</file>
+    <file>../ico/ico.ico</file>
+  </qresource>
+</RCC>
