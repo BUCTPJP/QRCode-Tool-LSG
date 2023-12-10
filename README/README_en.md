@@ -13,8 +13,8 @@ We have integrated and updated the original code for generating and parsing QR c
 
 + Generate QR code with logo  
 
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="200" height="200"  alt="log_mod1"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod2.png" width="200" height="200"  alt="log_mod2"/></br>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod1.png" width="200" height="200"  alt="logo_mod1"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod2.png" width="200" height="200"  alt="logo_mod2"/></br>
 
 + Generate QR codes with background images  
 
@@ -25,12 +25,12 @@ We have integrated and updated the original code for generating and parsing QR c
 ### 3.Generate WIFI QR code, scan the code to connect to WIFI  
 
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-code.png" width="200" height="200"  alt="wifi-code"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-effect.png" width="400" height="200"  alt="wifi-effect"/></br>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-effect.png" width="200" height="400"  alt="wifi-effect"/></br>
 
 ### 4.Generate a business card QR code, scan the code to display your personal business card  
 
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-code.png" width="400" height="200"  alt="Business card_code"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-effect.png" width="400" height="200"  alt="Business card_effect"/></br>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-code.png" width="200" height="200"  alt="Business card_code"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-effect.png" width="200" height="400"  alt="Business card_effect"/></br>
 
 ***
 ## Instructions for use：
