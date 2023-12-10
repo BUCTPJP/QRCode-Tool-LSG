@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'd:\学习\理科类\编程设计\python\二维码小工具\主窗口.ui'
+# Form implementation generated from reading ui file 'd:\学习\理科类\编程设计\python\二维码小工具\UI\主窗口.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -16,7 +16,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1000, 846)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/ico.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/ico/ico.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setMinimumSize(QtCore.QSize(1000, 800))
@@ -164,7 +164,6 @@ class Ui_MainWindow(object):
         font.setPointSize(10)
         self.mod2.setFont(font)
         self.mod2.setObjectName("mod2")
-
         #Designer生成后添加
         self.mod = QtWidgets.QButtonGroup(self)
         self.mod.addButton(self.mod1, 1)
@@ -300,4 +299,4 @@ class Ui_MainWindow(object):
         self.button5.setText(_translate("MainWindow", "选择二维码"))
         self.button6.setText(_translate("MainWindow", "清空显示"))
         self.privew.setText(_translate("MainWindow", "预览"))
-import UI_rc
+import UI.UI_rc

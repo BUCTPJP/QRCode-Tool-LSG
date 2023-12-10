@@ -163,4 +163,4 @@ class Ui_WIFI(object):
         self.bt2.setText(_translate("WIFI", "保存"))
         self.bt1.setText(_translate("WIFI", "生成"))
         self.bt3.setText(_translate("WIFI", "获取"))
-import UI_rc
+import UI.UI_rc

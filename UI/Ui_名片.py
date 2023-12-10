@@ -132,7 +132,7 @@ class Ui_identify(object):
 
     def retranslateUi(self, identify):
         _translate = QtCore.QCoreApplication.translate
-        identify.setWindowTitle(_translate("identify", "WIFI码"))
+        identify.setWindowTitle(_translate("identify", "名片码"))
         self.tip1.setText(_translate("identify", "姓名"))
         self.tip2.setText(_translate("identify", "住址"))
         self.label.setText(_translate("identify", "邮箱"))
@@ -140,4 +140,4 @@ class Ui_identify(object):
         self.bt1.setText(_translate("identify", "生成"))
         self.bt2.setText(_translate("identify", "保存"))
         self.privew.setText(_translate("identify", "预览"))
-import UI_rc
+import UI.UI_rc
