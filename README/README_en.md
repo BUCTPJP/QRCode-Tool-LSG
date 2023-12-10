@@ -6,26 +6,31 @@ We have integrated and updated the original code for generating and parsing QR c
 + English|[en](https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/README/README_en.md)
 ## Function：
 ### 1.Generate QR code
-+ Directly generate regular style QR codes
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="100" height="100"  alt="common_mod1"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod2.png" width="100" height="100"  alt="common_mod2"/><br/>
++ Directly generate regular style QR codes  
 
-+ Generate QR code with logo
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="100" height="100"  alt="log_mod1"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod2.png" width="100" height="100"  alt="log_mod2"/></br>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="200" height="200"  alt="common_mod1"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod2.png" width="200" height="200"  alt="common_mod2"/><br/>
 
-+ Generate QR codes with background images
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod1.png" width="100" height="100"  alt="bg_mod1"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod2.png" width="100" height="100"  alt="bg_mod2"/></br>
++ Generate QR code with logo  
+
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="200" height="200"  alt="log_mod1"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod2.png" width="200" height="200"  alt="log_mod2"/></br>
+
++ Generate QR codes with background images  
+
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod1.png" width="200" height="200"  alt="bg_mod1"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod2.png" width="200" height="200"  alt="bg_mod2"/></br>
 
 ### 2.Parsing QR codes
-### 3.Generate WIFI QR code, scan the code to connect to WIFI
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-code.png" width="100" height="100"  alt="wifi-code"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-effect.png" width="200" height="100"  alt="wifi-effect"/></br>
+### 3.Generate WIFI QR code, scan the code to connect to WIFI  
 
-### 4.Generate a business card QR code, scan the code to display your personal business card
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business%20card-code.png" width="100" height="100"  alt="Business card_code"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business%20card-effect.png" width="200" height="100"  alt="Business card_effect"/></br>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-code.png" width="200" height="200"  alt="wifi-code"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-effect.png" width="400" height="200"  alt="wifi-effect"/></br>
+
+### 4.Generate a business card QR code, scan the code to display your personal business card  
+
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-code.png" width="400" height="200"  alt="Business card_code"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-effect.png" width="400" height="200"  alt="Business card_effect"/></br>
 
 ***
 ## Instructions for use：

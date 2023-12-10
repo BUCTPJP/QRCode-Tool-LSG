@@ -7,26 +7,31 @@
 ***
 ## 功能：
 ### 1.生成二维码
-+ 直接生成普通样式二维码
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="100" height="100"  alt="common_mod1"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod2.png" width="100" height="100"  alt="common_mod2"/><br/>
++ 直接生成普通样式二维码  
+
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="200" height="200"  alt="common_mod1"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod2.png" width="200" height="200"  alt="common_mod2"/><br/>
   
-+ 生成带logo的二维码
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="100" height="100"  alt="log_mod1"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod2.png" width="100" height="100"  alt="log_mod2"/></br>
++ 生成带logo的二维码  
+
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/common-mod1.png" width="200" height="200"  alt="log_mod1"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod2.png" width="200" height="200"  alt="log_mod2"/></br>
   ​​
-+ 生成带背景图片的二维码
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod1.png" width="100" height="100"  alt="bg_mod1"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod2.png" width="100" height="100"  alt="bg_mod2"/></br>
++ 生成带背景图片的二维码  
+
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod1.png" width="200" height="200"  alt="bg_mod1"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/bg-mod2.png" width="200" height="200"  alt="bg_mod2"/></br>
 
 ### 2.解析二维码  
-### 3.生成WIFI二维码，扫码即可连接WIFI
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-code.png" width="100" height="100"  alt="wifi-code"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-effect.png" width="200" height="100"  alt="wifi-effect"/></br>
+### 3.生成WIFI二维码，扫码即可连接WIFI  
 
-### 4.生成名片二维码，扫码即可显示个人名片
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business%20card-code.png" width="100" height="100"  alt="Business card_code"/>
-  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business%20card-effect.png" width="200" height="100"  alt="Business card_effect"/></br>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-code.png" width="200" height="200"  alt="wifi-code"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/wifi-effect.png" width="400" height="200"  alt="wifi-effect"/></br>
+
+### 4.生成名片二维码，扫码即可显示个人名片  
+
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-code.png" width="200" height="200"  alt="Business card_code"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-effect.png" width="400" height="200"  alt="Business card_effect"/></br>
   
 ***
 ## 使用提醒：
