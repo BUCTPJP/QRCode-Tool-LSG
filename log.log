@@ -292,3 +292,170 @@
 2023-12-10 12:20:16,643 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:325] - p_vew_1 - INFO: ++将图片保存为临时文件++
 2023-12-10 12:20:16,644 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:330] - p_vew_1 - INFO: ++清除临时文件夹++
 2023-12-10 12:20:32,678 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:308] - save_1 - INFO: E:/桌面/wifi_code.png保存完成-
+2023-12-10 13:11:59,767 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:576] - <module> - INFO: ---日志模块加载完成---
+2023-12-10 13:11:59,768 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:577] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-10 13:11:59,768 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:579] - <module> - INFO: ---帮助模块加载完成---
+2023-12-10 13:11:59,768 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:582] - <module> - INFO: ---反馈模块加载完成---
+2023-12-10 13:11:59,768 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:585] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-10 13:11:59,768 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:587] - <module> - INFO: ---名片码模块加载完成---
+2023-12-10 13:12:26,904 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:357] - getwifi - INFO: 开始查找本机连接过WIFI信息
+2023-12-10 13:12:30,291 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:372] - getwifi - INFO: 获取到8条WIFI信息
+2023-12-10 13:12:47,262 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:323] - p_vew_1 - INFO: ++创建临时文件夹++
+2023-12-10 13:12:47,266 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:325] - p_vew_1 - INFO: ++将图片保存为临时文件++
+2023-12-10 13:12:47,267 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:330] - p_vew_1 - INFO: ++清除临时文件夹++
+2023-12-10 13:13:06,904 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:308] - save_1 - INFO: E:/桌面/家_wifi.png保存完成-
+2023-12-10 13:13:35,581 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:150] - bg - INFO: 用户选择 模式一
+2023-12-10 13:13:38,428 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-10 13:13:38,429 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 444
+2023-12-10 13:13:38,498 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:313] - p_vew - INFO: ++创建临时文件夹++
+2023-12-10 13:13:38,520 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:315] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-10 13:13:38,522 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:319] - p_vew - INFO: ++清除临时文件夹++
+2023-12-10 13:14:47,385 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:576] - <module> - INFO: ---日志模块加载完成---
+2023-12-10 13:14:47,385 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:577] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-10 13:14:47,385 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:579] - <module> - INFO: ---帮助模块加载完成---
+2023-12-10 13:14:47,385 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:582] - <module> - INFO: ---反馈模块加载完成---
+2023-12-10 13:14:47,386 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:585] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-10 13:14:47,386 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:587] - <module> - INFO: ---名片码模块加载完成---
+2023-12-10 13:14:51,393 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:198] - bg - ERROR: 用户未选择生成模式
+2023-12-10 13:14:52,730 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:150] - bg - INFO: 用户选择 模式一
+2023-12-10 13:14:58,256 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-10 13:14:58,256 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 444
+2023-12-10 13:14:58,325 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:313] - p_vew - INFO: ++创建临时文件夹++
+2023-12-10 13:14:58,347 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:315] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-10 13:14:58,349 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:319] - p_vew - INFO: ++清除临时文件夹++
+2023-12-10 13:15:04,353 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:293] - save - INFO: E:/桌面/测试.png保存完成-生成用时：0.17s
+2023-12-10 13:15:11,011 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-10 13:15:11,011 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 20834
+2023-12-10 13:15:11,016 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:313] - p_vew - INFO: ++创建临时文件夹++
+2023-12-10 13:15:11,038 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:315] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-10 13:15:11,041 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:319] - p_vew - INFO: ++清除临时文件夹++
+2023-12-10 13:15:11,051 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:276] - parse - INFO: []
+2023-12-10 13:15:18,368 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-10 13:15:18,368 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 444
+2023-12-10 13:20:08,138 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:575] - <module> - INFO: ---日志模块加载完成---
+2023-12-10 13:20:08,139 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:576] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-10 13:20:08,139 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:578] - <module> - INFO: ---帮助模块加载完成---
+2023-12-10 13:20:08,139 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:581] - <module> - INFO: ---反馈模块加载完成---
+2023-12-10 13:20:08,139 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:584] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-10 13:20:08,139 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:586] - <module> - INFO: ---名片码模块加载完成---
+2023-12-10 13:20:35,368 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-10 13:20:35,369 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 41 4
+2023-12-10 13:20:35,369 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'cHRM' 57 32
+2023-12-10 13:20:35,369 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'bKGD' 101 6
+2023-12-10 13:20:35,369 - PngImagePlugin.py[line:738] - _open - DEBUG: b'bKGD' 101 6 (unknown)
+2023-12-10 13:20:35,369 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 119 32768
+2023-12-10 13:20:35,375 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 176625 37
+2023-12-10 13:20:35,375 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 176674 37
+2023-12-10 13:20:35,385 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:312] - p_vew - INFO: ++创建临时文件夹++
+2023-12-10 13:20:35,426 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:314] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-10 13:20:35,430 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:318] - p_vew - INFO: ++清除临时文件夹++
+2023-12-10 13:20:35,445 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:275] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xba\x8c\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89\xe8\x83\x8c\xe6\x99\xaf\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a QR code by with background mod2', type='QRCODE', rect=Rect(left=32, top=32, width=423, height=423), polygon=[Point(x=32, y=32), Point(x=34, y=455), Point(x=455, y=455), Point(x=455, y=34)], quality=1, orientation=None)]
+2023-12-10 13:20:46,576 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-10 13:20:46,576 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 444
+2023-12-10 13:28:53,782 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:575] - <module> - INFO: ---日志模块加载完成---
+2023-12-10 13:28:53,783 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:576] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-10 13:28:53,783 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:578] - <module> - INFO: ---帮助模块加载完成---
+2023-12-10 13:28:53,783 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:581] - <module> - INFO: ---反馈模块加载完成---
+2023-12-10 13:28:53,783 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:584] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-10 13:28:53,783 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:586] - <module> - INFO: ---名片码模块加载完成---
+2023-12-10 13:32:02,516 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:577] - <module> - INFO: ---日志模块加载完成---
+2023-12-10 13:32:02,516 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:578] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-10 13:32:02,517 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:580] - <module> - INFO: ---帮助模块加载完成---
+2023-12-10 13:32:02,517 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:583] - <module> - INFO: ---反馈模块加载完成---
+2023-12-10 13:32:02,517 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:586] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-10 13:32:02,517 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:588] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 15:49:49,117 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:577] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 15:49:49,118 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:578] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 15:49:49,118 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:580] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 15:49:49,118 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:583] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 15:49:49,118 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:586] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 15:49:49,118 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:588] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 15:54:15,866 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:577] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 15:54:15,866 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:578] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 15:54:15,867 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:580] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 15:54:15,867 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:583] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 15:54:15,867 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:586] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 15:54:15,867 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:588] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 17:00:22,702 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:591] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 17:00:22,703 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:592] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 17:00:22,703 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:594] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 17:00:22,703 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:597] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 17:00:22,704 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 17:00:22,704 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 17:00:27,025 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:84] - logo - INFO: 用户选择 模式一
+2023-12-11 17:04:08,453 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:591] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 17:04:08,454 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:592] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 17:04:08,454 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:594] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 17:04:08,454 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:597] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 17:04:08,454 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 17:04:08,454 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 17:04:14,082 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:84] - logo - INFO: 用户选择 模式一
+2023-12-11 17:04:35,875 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-11 17:04:35,876 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 438
+2023-12-11 17:04:35,938 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:326] - p_vew - INFO: ++创建临时文件夹++
+2023-12-11 17:04:35,953 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:328] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-11 17:04:35,955 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:332] - p_vew - INFO: ++清除临时文件夹++
+2023-12-11 17:06:57,317 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:583] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 17:06:57,317 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:584] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 17:06:57,317 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:586] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 17:06:57,318 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:589] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 17:06:57,318 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:592] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 17:06:57,318 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:594] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 17:07:02,403 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:114] - logo - ERROR: 用户未选择生成模式
+2023-12-11 17:07:04,304 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:84] - logo - INFO: 用户选择 模式一
+2023-12-11 17:07:23,080 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:105] - logo - WARNING: 用户未选择图片退出
+2023-12-11 17:11:06,229 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:583] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 17:11:06,229 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:584] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 17:11:06,229 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:586] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 17:11:06,229 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:589] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 17:11:06,230 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:592] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 17:11:06,230 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:594] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 17:11:09,304 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:84] - logo - INFO: 用户选择 模式一
+2023-12-11 17:11:16,320 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2023-12-11 17:11:16,320 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 41 4
+2023-12-11 17:11:16,320 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'cHRM' 57 32
+2023-12-11 17:11:16,320 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'bKGD' 101 6
+2023-12-11 17:11:16,321 - PngImagePlugin.py[line:738] - _open - DEBUG: b'bKGD' 101 6 (unknown)
+2023-12-11 17:11:16,321 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 119 30341
+2023-12-11 17:11:16,380 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 30472 37
+2023-12-11 17:11:16,381 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 30521 37
+2023-12-11 17:11:16,385 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:318] - p_vew - INFO: ++创建临时文件夹++
+2023-12-11 17:11:16,402 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:320] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-11 17:11:16,404 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:324] - p_vew - INFO: ++清除临时文件夹++
+2023-12-11 17:14:55,002 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:595] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 17:14:55,003 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:596] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 17:14:55,003 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:598] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 17:14:55,003 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:601] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 17:14:55,003 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:604] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 17:14:55,003 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:606] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 17:14:57,923 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:47] - produce - INFO: 用户选择 模式一
+2023-12-11 17:14:58,031 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:330] - p_vew - INFO: ++创建临时文件夹++
+2023-12-11 17:14:58,081 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:332] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-11 17:14:58,083 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:336] - p_vew - INFO: ++清除临时文件夹++
+2023-12-11 17:16:08,592 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:593] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 17:16:08,592 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:594] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 17:16:08,592 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:596] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 17:16:08,592 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 17:16:08,592 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 17:16:08,592 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:604] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 17:16:11,457 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:47] - produce - INFO: 用户选择 模式一
+2023-12-11 17:16:11,597 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:328] - p_vew - INFO: ++创建临时文件夹++
+2023-12-11 17:16:11,656 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:330] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-11 17:16:11,659 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:334] - p_vew - INFO: ++清除临时文件夹++
+2023-12-11 17:16:22,803 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:308] - save - INFO: E:\桌面\测试.png保存完成-生成用时：0.14s
+2023-12-11 17:21:47,334 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:596] - <module> - INFO: ---日志模块加载完成---
+2023-12-11 17:21:47,334 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:597] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2023-12-11 17:21:47,334 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---帮助模块加载完成---
+2023-12-11 17:21:47,334 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---反馈模块加载完成---
+2023-12-11 17:21:47,335 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---WIFI码模块加载完成---
+2023-12-11 17:21:47,335 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:607] - <module> - INFO: ---名片码模块加载完成---
+2023-12-11 17:21:50,824 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:47] - produce - INFO: 用户选择 模式一
+2023-12-11 17:21:50,957 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:331] - p_vew - INFO: ++创建临时文件夹++
+2023-12-11 17:21:51,022 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:333] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-11 17:21:51,024 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:337] - p_vew - INFO: ++清除临时文件夹++
+2023-12-11 17:22:11,819 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:311] - save - INFO: D:\123.png保存完成-生成用时：0.13s
+2023-12-11 17:22:16,219 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:47] - produce - INFO: 用户选择 模式一
+2023-12-11 17:22:16,343 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:331] - p_vew - INFO: ++创建临时文件夹++
+2023-12-11 17:22:16,360 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:333] - p_vew - INFO: ++将图片保存为临时文件++
+2023-12-11 17:22:16,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:337] - p_vew - INFO: ++清除临时文件夹++
+2023-12-11 17:22:27,471 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:307] - save - WARNING: 用户未选择路径退出

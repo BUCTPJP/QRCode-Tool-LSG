@@ -257,6 +257,13 @@ class Ui_MainWindow(object):
         self.statusbar.setStyleSheet("border: 1px solid black")
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+        #Designer生成后添加
+        self.statu_tip = QtWidgets.QLabel('BUCTPJP[LCG]-禁止售卖，搬运请说明出处')
+        self.version_tip = QtWidgets.QLabel('V3.4')
+        self.statusbar.addPermanentWidget(self.statu_tip, stretch=3)
+        self.statusbar.addPermanentWidget(self.version_tip, stretch=1)
+
+
         self.menuBar = QtWidgets.QMenuBar(MainWindow)
         self.menuBar.setGeometry(QtCore.QRect(0, 0, 1000, 26))
         self.menuBar.setObjectName("menuBar")

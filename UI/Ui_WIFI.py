@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'd:\学习\理科类\编程设计\python\二维码小工具\WIFI.ui'
+# Form implementation generated from reading ui file 'd:\学习\理科类\编程设计\python\二维码小工具\UI\WIFI.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -16,7 +16,7 @@ class Ui_WIFI(object):
         WIFI.setObjectName("WIFI")
         WIFI.resize(820, 675)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/wifi.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/ico/wifi.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         WIFI.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(WIFI)
         self.centralwidget.setMinimumSize(QtCore.QSize(820, 650))
@@ -147,6 +147,7 @@ class Ui_WIFI(object):
         self.gridLayout_2.addWidget(self.lineEdit_2, 2, 1, 1, 1)
         self.gridLayout.addWidget(self.frame_2, 2, 1, 1, 1)
 
+
         self.retranslateUi(WIFI)
         QtCore.QMetaObject.connectSlotsByName(WIFI)
 
@@ -163,4 +164,4 @@ class Ui_WIFI(object):
         self.bt2.setText(_translate("WIFI", "保存"))
         self.bt1.setText(_translate("WIFI", "生成"))
         self.bt3.setText(_translate("WIFI", "获取"))
-import UI.UI_rc
+

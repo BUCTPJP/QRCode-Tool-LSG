@@ -11,11 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>WIFI码</string>
+   <string>名片码</string>
   </property>
   <property name="windowIcon">
    <iconset resource="UI.qrc">
-    <normaloff>:/名片.ico</normaloff>:/名片.ico</iconset>
+    <normaloff>:/ico/名片.ico</normaloff>:/ico/名片.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="minimumSize">

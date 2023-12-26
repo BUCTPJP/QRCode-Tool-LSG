@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'd:\学习\理科类\编程设计\python\二维码小工具\名片.ui'
+# Form implementation generated from reading ui file 'd:\学习\理科类\编程设计\python\二维码小工具\UI\名片.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -16,7 +16,7 @@ class Ui_identify(object):
         identify.setObjectName("identify")
         identify.resize(400, 675)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/名片.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/ico/名片.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         identify.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(identify)
         self.centralwidget.setMinimumSize(QtCore.QSize(400, 650))
@@ -140,4 +140,4 @@ class Ui_identify(object):
         self.bt1.setText(_translate("identify", "生成"))
         self.bt2.setText(_translate("identify", "保存"))
         self.privew.setText(_translate("identify", "预览"))
-import UI.UI_rc
+

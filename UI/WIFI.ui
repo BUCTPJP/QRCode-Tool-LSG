@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="UI.qrc">
-    <normaloff>:/wifi.ico</normaloff>:/wifi.ico</iconset>
+    <normaloff>:/ico/wifi.ico</normaloff>:/ico/wifi.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="minimumSize">

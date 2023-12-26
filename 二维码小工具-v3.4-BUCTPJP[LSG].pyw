@@ -11,7 +11,7 @@
 '''
 
 # here put the import lib
-import qrcode,logging,time,sys,pyzbar,tempfile,os,webbrowser
+import qrcode,logging,time,sys,pyzbar,tempfile,os,webbrowser,UI.UI_rc,win32ui
 from qrcode.image.styles.moduledrawers import RoundedModuleDrawer,GappedSquareModuleDrawer,CircleModuleDrawer,SquareModuleDrawer,VerticalBarsDrawer,HorizontalBarsDrawer
 from qrcode.image.styledpil import StyledPilImage
 from PIL.ImageFilter import SHARPEN
@@ -45,7 +45,7 @@ def produce():          #FIXME:正常二维码
     start = time.time()
     if myWindow.mod.checkedId() == 1:
         logger.info('用户选择 模式一')                  #TODO:info运行信息输出
-        string= myWindow.text1.toPlainText()            #获取用户输入内容
+        string= myWindow.text1.toPlainText()           
         qr = qrcode.QRCode(
                 version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
                 error_correction=qrcode.constants.ERROR_CORRECT_H,  # ERROR_CORRECT_L/M/Q/H  7%/15%/25%/30%的容错率
@@ -63,7 +63,7 @@ def produce():          #FIXME:正常二维码
         logger.error("用户未选择生成模式")                      #TODO:error错误信息输出
     else:
         logger.info('用户选择 模式二')                  #TODO:info运行信息输出
-        string = myWindow.text1.toPlainText()         #获取用户输入内容
+        string = myWindow.text1.toPlainText()       
         qr = qrcode.QRCode(
                 version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
                 error_correction=qrcode.constants.ERROR_CORRECT_H,  # ERROR_CORRECT_L/M/Q/H  7%/15%/25%/30%的容错率
@@ -81,8 +81,8 @@ def logo():             #FIXME:带logo二维码
     global runtime,img_s
     start = time.time()  
     if myWindow.mod.checkedId() == 1:
-        logger.info('用户选择 模式一')                      #TODO:info运行信息输出
-        string = myWindow.text1.toPlainText()            #获取用户输入内容 
+        logger.info('用户选择 模式一')                       # TODO:info运行信息输出
+        string = myWindow.text1.toPlainText()               # 获取用户输入内容 
         qr = qrcode.QRCode(
                 version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
                 error_correction=qrcode.constants.ERROR_CORRECT_H,  # ERROR_CORRECT_L/M/Q/H  7%/15%/25%/30%的容错率
@@ -91,10 +91,13 @@ def logo():             #FIXME:带logo二维码
         )
         qr.add_data(string)
         qr.make(fit=True)    
-        end = time.time()                    
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        image,type = QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
+        end = time.time()  
+        lpszFilter = "Image Files (*.jpg *.gif *.png *.jpeg)|*.jpg;*.gif;*.png;*.jpeg|" \
+                    "Files (*.*)|*.*|| "                                                    # 文件类型过滤
+        dlg = win32ui.CreateFileDialog(True, "png", None, 0x04 | 0x02, lpszFilter)          # True表示打开文件对话框
+        #dlg.SetOFNInitialDir(os.path.dirname(__file__))                                     # 设置打开文件对话框中的初始显示目录
+        dlg.DoModal()                                                                       # 等待获取用户选择的文件
+        image = dlg.GetPathName()  
         if image == (''):
             logger.warning('用户未选择图片退出')            #TODO:warning警告输出
             pass
@@ -119,9 +122,12 @@ def logo():             #FIXME:带logo二维码
         qr.make(fit=True)  
         img = qr.make_image(fill_color=str(col_select.name()), back_color='#FFF')  
         end1 = time.time()                          
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        image,type= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
+        lpszFilter = "Image Files (*.jpg *.gif *.png *.jpeg)|*.jpg;*.gif;*.png;*.jpeg|" \
+                    "Files (*.*)|*.*|| "                                                    # 文件类型过滤
+        dlg = win32ui.CreateFileDialog(True, "png", None, 0x04 | 0x02, lpszFilter)          # True表示打开文件对话框
+        #dlg.SetOFNInitialDir(os.path.dirname(__file__))                                     # 设置打开文件对话框中的初始显示目录
+        dlg.DoModal()                                                                       # 等待获取用户选择的文件
+        image = dlg.GetPathName()
         if image == (''):
             logger.warning('用户未选择图片退出')            #TODO:warning警告输出
             pass
@@ -164,9 +170,12 @@ def bg():               #FIXME:带背景二维码
         qr.make(fit=True)
         img = qr.make_image(back_color='#FFF',image_factory=StyledPilImage, module_drawer=CircleModuleDrawer()).convert('RGBA')                           
         end1 = time.time() 
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        image,type= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
+        lpszFilter = "Image Files (*.jpg *.gif *.png *.jpeg)|*.jpg;*.gif;*.png;*.jpeg|" \
+                    "Files (*.*)|*.*|| "                                                    # 文件类型过滤
+        dlg = win32ui.CreateFileDialog(True, "png", None, 0x04 | 0x02, lpszFilter)          # True表示打开文件对话框
+        #dlg.SetOFNInitialDir(os.path.dirname(__file__))                                     # 设置打开文件对话框中的初始显示目录
+        dlg.DoModal()                                                                       # 等待获取用户选择的文件
+        image = dlg.GetPathName()
         if image == (''):
             logger.warning('用户未选择图片退出')            #TODO:warning警告输出
             pass
@@ -214,9 +223,12 @@ def bg():               #FIXME:带背景二维码
         qr.make(fit=True)
         img = qr.make_image(fill_color=str(col_select.name()), back_color='#FFF').convert('RGBA')                            
         end1 = time.time() 
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        image,type = QFileDialog.getOpenFileName(myWindow, "选择文件", "", "Image Files (*.jpg *.gif *.png *.jpeg);;All Files (*)", options=options)
+        lpszFilter = "Image Files (*.jpg *.gif *.png *.jpeg)|*.jpg;*.gif;*.png;*.jpeg|" \
+                    "Files (*.*)|*.*|| "                                                    # 文件类型过滤
+        dlg = win32ui.CreateFileDialog(True, "png", None, 0x04 | 0x02, lpszFilter)          # True表示打开文件对话框
+        #dlg.SetOFNInitialDir(os.path.dirname(__file__))                                     # 设置打开文件对话框中的初始显示目录
+        dlg.DoModal()                                                                       # 等待获取用户选择的文件
+        image = dlg.GetPathName()
         if image == (''):
             logger.warning('用户未选择图片退出')            #TODO:warning警告输出
             pass
@@ -245,9 +257,12 @@ def bg():               #FIXME:带背景二维码
             p_vew(img_s)   
 
 def parse():            #FIXME:解析二维码
-    options = QFileDialog.Options()
-    options |= QFileDialog.DontUseNativeDialog
-    image,type= QFileDialog.getOpenFileName(myWindow, "选择文件", "", "All Files (*);;Image Files (*.jpg *.gif *.png *.jpeg)", options=options)
+    lpszFilter = "Image Files (*.jpg *.gif *.png *.jpeg)|*.jpg;*.gif;*.png;*.jpeg|" \
+                    "Files (*.*)|*.*|| "                                                    # 文件类型过滤
+    dlg = win32ui.CreateFileDialog(True, "png", None, 0x04 | 0x02, lpszFilter)          # True表示打开文件对话框
+    dlg.SetOFNInitialDir(os.path.dirname(__file__))                                     # 设置打开文件对话框中的初始显示目录
+    dlg.DoModal()                                                                       # 等待获取用户选择的文件
+    image = dlg.GetPathName()
     if image == (''):
         logger.warning('用户未选择图片退出')            #TODO:warning警告输出
         pass
@@ -259,7 +274,6 @@ def parse():            #FIXME:解析二维码
         img = ImageEnhance.Sharpness(img).enhance(1.0)              #锐利化          0~1~2
         img = ImageEnhance.Contrast(img).enhance(1.0)               #调整对比度      0~1~无穷
         img = ImageEnhance.Color(img).enhance(1.0)                  #调整色彩平衡    0~1~无穷
-        #img = img.filter(SHARPEN)                                  #SHARPEN：补偿图像的轮廓，增强图像的边缘及灰度跳变的部分，使图像变得清晰
         p_vew(img)  
         texts = pyzbar.decode(img)                                  #解析到信息
         if texts == []:
@@ -280,24 +294,34 @@ def clean():            #FIXME:清空解析区显示
     myWindow.text6.clear()
 
 def save(img):          #FIXME:保存二维码图像
-    options = QFileDialog.Options()
-    options |= QFileDialog.DontUseNativeDialog
-    file_path,type = QFileDialog.getSaveFileName(myWindow, "保存文件", "", "PNG(*.png);;JPG(*.jpg)", options=options)
+    lpszFilter ="PNG Files (*.png)|*.png|" \
+                "JPG Files (*.jpg)|*.jp|" \
+                "JPEG Files (*.jpeg)|*.jpeg|" \
+                "GIF Files (*.gif)|*.gif|" \
+                "Files (*.*)|*.*|| "                                                    # 文件类型过滤
+    dlg = win32ui.CreateFileDialog(False, "png", None, 0x04 | 0x02, lpszFilter)         # True表示打开文件对话框
+    #dlg.SetOFNInitialDir(os.path.dirname(__file__))                                    # 设置打开文件对话框中的初始显示目录,不设置记忆上次路径
+    dlg.DoModal()                                                                       # 等待获取用户选择的文件
+    file_path = dlg.GetPathName()
     if file_path == (''):
         logger.warning('用户未选择路径退出')            #TODO:warning警告输出
         pass
     else:
-        file_path = file_path+type[5:9]
-        if file_path:
-            img.save(file_path,quality=100)               
+        img.save(file_path,quality=100)               
         logger.info(file_path + '保存完成-'+ runtime)   #TODO:info运行信息输出
         myWindow.text4.clear()
         myWindow.text4.setText(file_path+ '保存完成' + '\n' + runtime)
 
 def save_1(img):        #FIXME:保存wifi码/名片码图像
-    options = QFileDialog.Options()
-    options |= QFileDialog.DontUseNativeDialog
-    file_path,type = QFileDialog.getSaveFileName(myWindow, "保存文件", "", "PNG(*.png);;JPG(*.jpg)", options=options)
+    lpszFilter ="PNG Files (*.png)|*.png|" \
+                "JPG Files (*.jpg)|*.jp|" \
+                "JPEG Files (*.jpeg)|*.jpeg|" \
+                "GIF Files (*.gif)|*.gif|" \
+                "Files (*.*)|*.*|| "                                                    # 文件类型过滤
+    dlg = win32ui.CreateFileDialog(False, "png", None, 0x04 | 0x02, lpszFilter)         # True表示打开文件对话框
+    #dlg.SetOFNInitialDir(os.path.dirname(__file__))                                    # 设置打开文件对话框中的初始显示目录,不设置记忆上次路径
+    dlg.DoModal()                                                                       # 等待获取用户选择的文件
+    file_path = dlg.GetPathName()
     if file_path == (''):
         logger.warning('用户未选择路径退出')            #TODO:warning警告输出
         pass
@@ -406,7 +430,7 @@ class MyWindow(QMainWindow,Ui_MainWindow):              #FIXME:主窗口
         self.button3.clicked.connect(bg)
         self.button5.clicked.connect(parse)
         self.button6.clicked.connect(clean)
-        self.button7.clicked.connect(save) 
+        self.button7.clicked.connect(lambda:save(img_s)) 
     def open_child_window(self):                        #打开关于子窗口
         child_window.show()
     def open_wifi_window(self):                         #打开WIFI码子窗口
@@ -436,7 +460,9 @@ class Child(QWidget):                                   #FIXME:关于子窗口
     def __init__(self):
         super().__init__()
         self.setWindowTitle("关于")
-        self.setWindowIcon(QIcon("ico.ico"))
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/ico/关于.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.setWindowIcon(icon)
         self.resize(600, 350)
         self.setMinimumSize(QSize(600, 350))
         self.setMaximumSize(QSize(600, 350))
@@ -574,17 +600,17 @@ child_window = Child()
 myWindow.show()
 
 logger.info('---日志模块加载完成---')
-logger.info('---GUI加载成功，程序启动---正在加载必要功能---')        #TODO:info运行信息输出
+logger.info('---GUI加载成功，程序启动---正在加载必要功能---')                #TODO:info运行信息输出
 myWindow.explain.triggered.connect(description)
-logger.info('---帮助模块加载完成---')                               #TODO:info运行信息输出
+logger.info('---帮助模块加载完成---')                                       #TODO:info运行信息输出
 myWindow.github.triggered.connect(git_open)
 myWindow.lsg.triggered.connect(lsg_open)
-logger.info('---反馈模块加载完成---')                               #TODO:info运行信息输出
+logger.info('---反馈模块加载完成---')                                       #TODO:info运行信息输出
 myWindow.about.triggered.connect(myWindow.open_child_window)
 myWindow.wifi_code.triggered.connect(myWindow.open_wifi_window)
-logger.info('---WIFI码模块加载完成---')                               #TODO:info运行信息输出
+logger.info('---WIFI码模块加载完成---')                                     #TODO:info运行信息输出
 myWindow.identify_code.triggered.connect(myWindow.open_identify_window)
-logger.info('---名片码模块加载完成---')                               #TODO:info运行信息输出
+logger.info('---名片码模块加载完成---')                                     #TODO:info运行信息输出
 
 app.exec_()
 myWindow.close()
