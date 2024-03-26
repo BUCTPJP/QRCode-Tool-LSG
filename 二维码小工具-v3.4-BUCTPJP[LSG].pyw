@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 '''
 @File    :   二维码小工具-v3.4-BUCTPJP[LSG].pyw
-@Time    :   2023/12/10 12:20:41
+@Time    :   2024/03/26 15:00:00
 @Author  :   BUCTPJP 
 @Version :   3.4
 @Contact :   pjp1095765918@gmail.com
@@ -260,7 +260,7 @@ def parse():            #FIXME:解析二维码
     lpszFilter = "Image Files (*.jpg *.gif *.png *.jpeg)|*.jpg;*.gif;*.png;*.jpeg|" \
                     "Files (*.*)|*.*|| "                                                    # 文件类型过滤
     dlg = win32ui.CreateFileDialog(True, "png", None, 0x04 | 0x02, lpszFilter)          # True表示打开文件对话框
-    dlg.SetOFNInitialDir(os.path.dirname(__file__))                                     # 设置打开文件对话框中的初始显示目录
+    #dlg.SetOFNInitialDir(os.path.dirname(__file__))                                     # 设置打开文件对话框中的初始显示目录
     dlg.DoModal()                                                                       # 等待获取用户选择的文件
     image = dlg.GetPathName()
     if image == (''):
@@ -295,7 +295,7 @@ def clean():            #FIXME:清空解析区显示
 
 def save(img):          #FIXME:保存二维码图像
     lpszFilter ="PNG Files (*.png)|*.png|" \
-                "JPG Files (*.jpg)|*.jp|" \
+                "JPG Files (*.jpg)|*.jpg|" \
                 "JPEG Files (*.jpeg)|*.jpeg|" \
                 "GIF Files (*.gif)|*.gif|" \
                 "Files (*.*)|*.*|| "                                                    # 文件类型过滤
@@ -314,9 +314,7 @@ def save(img):          #FIXME:保存二维码图像
 
 def save_1(img):        #FIXME:保存wifi码/名片码图像
     lpszFilter ="PNG Files (*.png)|*.png|" \
-                "JPG Files (*.jpg)|*.jp|" \
-                "JPEG Files (*.jpeg)|*.jpeg|" \
-                "GIF Files (*.gif)|*.gif|" \
+                "GIF Files (*.svg)|*.svg|" \
                 "Files (*.*)|*.*|| "                                                    # 文件类型过滤
     dlg = win32ui.CreateFileDialog(False, "png", None, 0x04 | 0x02, lpszFilter)         # True表示打开文件对话框
     #dlg.SetOFNInitialDir(os.path.dirname(__file__))                                    # 设置打开文件对话框中的初始显示目录,不设置记忆上次路径
@@ -326,11 +324,10 @@ def save_1(img):        #FIXME:保存wifi码/名片码图像
         logger.warning('用户未选择路径退出')            #TODO:warning警告输出
         pass
     else:
-        file_path = file_path+type[5:9]
-        if file_path:
-            img.save(file_path,scale = 10)               
+        img.save(file_path,scale = 10)               
         logger.info(file_path + '保存完成-')   #TODO:info运行信息输出
-        QMessageBox.information(wifi_window, "提示", "保存完成",QMessageBox.Yes)
+        myWindow.text4.clear()
+        myWindow.text4.setText(file_path+ '保存完成')
 
 def p_vew(img):         #FIXME:预览二维码图像
     temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.png')
@@ -365,7 +362,7 @@ def p_vew_2(img):       #FIXME:预览名片码图像
     logger.info('++清除临时文件夹++')                   #TODO:info运行信息输出
 
 def description():      #FIXME:使用说明
-    os.system(r'v3.3使用说明.txt')
+    os.system(r'v3.4使用说明.txt')
 
 def git_open():         #FIXME:打开github
     webbrowser.open('https://github.com/BUCTPJP/QRCode-Tool-LSG/issues')
@@ -581,7 +578,7 @@ class Child(QWidget):                                   #FIXME:关于子窗口
         self.gridLayout_2.addWidget(self.label_7, 2, 2, 1, 1)
         self.verticalLayout.addWidget(self.frame_2)
         QtCore.QMetaObject.connectSlotsByName(self)
-        self.label.setText("版本：\n""V3.2")
+        self.label.setText("版本：\n""V3.4")
         self.label_2.setText("Email:")
         self.label_3.setText("pjp1095765918@gmail.com")
         self.label_4.setText("pjp1095765918@163.com")
