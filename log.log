@@ -697,3 +697,538 @@
 2024-03-26 14:58:37,859 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:357] - p_vew_2 - INFO: ++将图片保存为临时文件++
 2024-03-26 14:58:37,860 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:362] - p_vew_2 - INFO: ++清除临时文件夹++
 2024-03-26 14:58:46,359 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:328] - save_1 - INFO: E:\桌面\3.svg保存完成-
+2024-05-19 20:21:24,319 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2024-05-19 20:21:24,320 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2024-05-19 20:21:24,321 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2024-05-19 20:21:24,321 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2024-05-19 20:21:24,321 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2024-05-19 20:21:24,321 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2024-05-19 20:21:29,880 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:378] - getwifi - INFO: 开始查找本机连接过WIFI信息
+2024-05-19 20:21:34,280 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:393] - getwifi - INFO: 获取到10条WIFI信息
+2024-07-03 14:07:32,891 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2024-07-03 14:07:32,892 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2024-07-03 14:07:32,892 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2024-07-03 14:07:32,892 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2024-07-03 14:07:32,892 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2024-07-03 14:07:32,893 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2024-07-03 14:07:37,846 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:344] - p_vew_1 - INFO: ++创建临时文件夹++
+2024-07-03 14:07:37,849 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:346] - p_vew_1 - INFO: ++将图片保存为临时文件++
+2024-07-03 14:07:37,851 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:351] - p_vew_1 - INFO: ++清除临时文件夹++
+2024-07-03 14:07:40,627 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:378] - getwifi - INFO: 开始查找本机连接过WIFI信息
+2024-07-03 14:07:45,808 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:393] - getwifi - INFO: 获取到16条WIFI信息
+2024-07-03 14:08:02,438 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:344] - p_vew_1 - INFO: ++创建临时文件夹++
+2024-07-03 14:08:02,442 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:346] - p_vew_1 - INFO: ++将图片保存为临时文件++
+2024-07-03 14:08:02,443 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:351] - p_vew_1 - INFO: ++清除临时文件夹++
+2024-07-03 14:08:10,114 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:328] - save_1 - INFO: E:\桌面\1.png保存完成-
+2024-07-03 14:17:53,091 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2024-07-03 14:17:53,092 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2024-07-03 14:17:53,092 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2024-07-03 14:17:53,092 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2024-07-03 14:17:53,092 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2024-07-03 14:17:53,092 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2024-07-03 14:17:57,253 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:378] - getwifi - INFO: 开始查找本机连接过WIFI信息
+2024-07-03 14:18:03,762 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:393] - getwifi - INFO: 获取到16条WIFI信息
+2024-07-03 14:18:10,690 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:344] - p_vew_1 - INFO: ++创建临时文件夹++
+2024-07-03 14:18:10,694 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:346] - p_vew_1 - INFO: ++将图片保存为临时文件++
+2024-07-03 14:18:10,695 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:351] - p_vew_1 - INFO: ++清除临时文件夹++
+2024-07-03 14:18:15,773 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:328] - save_1 - INFO: E:\桌面\1.png保存完成-
+2024-07-21 00:05:46,908 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2024-07-21 00:05:46,909 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2024-07-21 00:05:46,909 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2024-07-21 00:05:46,909 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2024-07-21 00:05:46,909 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2024-07-21 00:05:46,909 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2024-07-21 00:06:00,325 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:334] - p_vew - INFO: ++创建临时文件夹++
+2024-07-21 00:06:00,389 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:336] - p_vew - INFO: ++将图片保存为临时文件++
+2024-07-21 00:06:00,392 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:340] - p_vew - INFO: ++清除临时文件夹++
+2024-07-21 00:06:00,452 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:290] - parse - INFO: [Decoded(data=b'https://mz-wifi.mzywifi.com/wx9f13ebe44e71e45d?code=224480', type='QRCODE', rect=Rect(left=256, top=461, width=243, height=254), polygon=[Point(x=256, y=691), Point(x=476, y=715), Point(x=499, y=485), Point(x=273, y=461)], quality=1, orientation=None)]
+2024-08-12 16:24:35,527 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2024-08-12 16:24:35,528 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2024-08-12 16:24:35,528 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2024-08-12 16:24:35,528 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2024-08-12 16:24:35,528 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2024-08-12 16:24:35,528 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2025-01-13 12:35:05,493 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2025-01-13 12:35:05,493 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-01-13 12:35:05,495 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2025-01-13 12:35:05,495 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2025-01-13 12:35:05,495 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2025-01-13 12:35:05,495 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2025-01-13 12:35:17,013 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:378] - getwifi - INFO: 开始查找本机连接过WIFI信息
+2025-07-23 14:17:00,249 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 14:17:00,249 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 14:17:00,249 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 14:17:00,249 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 14:17:00,250 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 14:17:00,250 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 14:19:29,976 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 14:19:29,976 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 14:19:29,976 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 14:19:29,977 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 14:19:29,977 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 14:19:29,977 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 14:22:14,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:599] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 14:22:14,558 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:600] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 14:22:14,558 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:602] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 14:22:14,558 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:605] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 14:22:14,558 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:608] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 14:22:14,558 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:610] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 14:23:48,568 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:47] - produce - INFO: 用户选择 模式一
+2025-07-23 14:23:48,595 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:334] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 14:23:48,640 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:336] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 14:23:48,643 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:340] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 14:23:55,626 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:307] - save - WARNING: 用户未选择路径退出
+2025-07-23 14:23:57,965 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:84] - logo - INFO: 用户选择 模式一
+2025-07-23 14:24:13,097 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:334] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 14:24:13,107 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:336] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 14:24:13,110 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:340] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 14:24:23,403 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:156] - bg - INFO: 用户选择 模式一
+2025-07-23 14:24:30,219 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:334] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 14:24:30,237 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:336] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 14:24:30,241 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:340] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 14:55:22,806 - ceshi.py[line:208] - __init__ - INFO: 程序启动完成
+2025-07-23 14:56:36,929 - ceshi.py[line:208] - __init__ - INFO: 程序启动完成
+2025-07-23 14:56:52,676 - ceshi.py[line:208] - __init__ - INFO: 程序启动完成
+2025-07-23 14:56:53,953 - ceshi.py[line:610] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 14:56:53,953 - ceshi.py[line:611] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 14:57:13,739 - ceshi.py[line:208] - __init__ - INFO: 程序启动完成
+2025-07-23 14:57:15,066 - ceshi.py[line:610] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 14:57:15,066 - ceshi.py[line:611] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 15:46:47,148 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:644] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 15:46:47,149 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:645] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 15:46:47,149 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:647] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 15:46:47,149 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:650] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 15:46:47,149 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:653] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 15:46:47,149 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:655] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 15:46:47,149 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:657] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 16:46:10,740 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:690] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 16:46:10,740 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:691] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 16:46:10,740 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:693] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 16:46:10,740 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:696] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 16:46:10,741 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:699] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 16:46:10,741 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:701] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 16:46:10,741 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:703] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 16:47:15,957 - ceshi.py[line:208] - __init__ - INFO: 程序启动完成
+2025-07-23 16:47:17,271 - ceshi.py[line:610] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 16:47:17,271 - ceshi.py[line:611] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 16:58:16,419 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:689] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 16:58:16,419 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:690] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 16:58:16,419 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:692] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 16:58:16,419 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:695] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 16:58:16,420 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:698] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 16:58:16,420 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:700] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 16:58:16,420 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:702] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:04:20,794 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:687] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:04:20,794 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:688] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:04:20,794 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:690] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:04:20,795 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:693] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:04:20,795 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:696] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:04:20,795 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:698] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:04:20,795 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:700] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:07:23,865 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:689] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:07:23,865 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:690] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:07:23,865 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:692] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:07:23,865 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:695] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:07:23,866 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:698] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:07:23,866 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:700] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:07:23,866 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:702] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:12:58,362 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:703] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:12:58,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:12:58,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:12:58,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:12:58,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:712] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:12:58,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:714] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:12:58,364 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:716] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:16:14,461 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:703] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:16:14,461 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:16:14,461 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:16:14,462 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:16:14,462 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:712] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:16:14,462 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:714] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:16:14,462 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:716] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:18:22,958 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:18:22,959 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:18:22,959 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:18:22,959 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:18:22,959 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:18:22,959 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:18:22,959 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:19:40,990 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:19:40,991 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:19:40,991 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:19:40,991 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:19:40,991 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:19:40,991 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:19:40,991 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:20:16,825 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:20:16,825 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:20:16,826 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:20:16,826 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:20:16,826 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:20:16,826 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:20:16,826 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:26:31,516 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:26:31,517 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:26:31,517 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:26:31,518 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:26:31,518 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:26:31,518 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:26:31,518 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:28:51,005 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:28:51,005 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:28:51,006 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:28:51,006 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:28:51,006 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:28:51,006 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:28:51,006 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:30:47,438 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:30:47,438 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:30:47,438 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:30:47,439 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:30:47,439 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:30:47,439 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:30:47,439 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:31:24,643 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:31:24,643 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:31:24,643 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:31:24,644 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:31:24,644 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:31:24,644 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:31:24,644 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:32:08,555 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:32:08,556 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:32:08,556 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:32:08,556 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:32:08,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:32:08,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:32:08,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:34:13,177 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:34:13,178 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:34:13,178 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:34:13,178 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:712] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:34:13,178 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:34:13,178 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:34:13,179 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:719] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:35:27,168 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:35:27,169 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:35:27,169 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:35:27,169 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:712] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:35:27,169 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:35:27,169 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:35:27,170 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:719] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:40:22,535 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:708] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:40:22,535 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:40:22,536 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:711] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:40:22,536 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:714] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:40:22,536 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:40:22,536 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:719] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:40:22,536 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:721] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:41:38,841 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:708] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:41:38,843 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:41:38,843 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:711] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:41:38,843 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:714] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:41:38,844 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:41:38,844 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:719] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:41:38,844 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:721] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:43:46,459 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:43:46,459 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:43:46,460 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:43:46,460 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:712] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:43:46,460 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:43:46,460 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:43:46,460 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:719] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:46:25,282 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:714] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:46:25,283 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:46:25,283 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:46:25,284 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:720] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:46:25,284 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:723] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:46:25,284 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:725] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:46:25,284 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:727] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:49:23,296 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:49:23,297 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:49:23,297 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:712] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:49:23,297 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:49:23,297 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:718] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:49:23,297 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:720] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:49:23,298 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:722] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:51:00,859 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:709] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:51:00,860 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:51:00,860 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:712] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:51:00,860 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:51:00,860 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:718] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:51:00,861 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:720] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:51:00,861 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:722] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:53:39,474 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:712] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:53:39,475 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:53:39,475 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:53:39,475 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:718] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:53:39,475 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:721] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:53:39,476 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:723] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:53:39,476 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:725] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 17:56:14,233 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:716] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 17:56:14,234 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 17:56:14,234 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:719] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 17:56:14,234 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:722] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 17:56:14,234 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:725] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 17:56:14,235 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:727] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 17:56:14,235 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:729] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:04:52,562 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:04:52,563 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:711] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:04:52,563 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:04:52,563 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:716] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:04:52,563 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:719] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:04:52,563 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:721] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:04:52,563 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:723] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:05:30,719 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:05:30,720 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:05:30,720 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:708] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:05:30,720 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:711] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:05:30,720 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:714] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:05:30,720 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:716] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:05:30,720 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:718] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:06:49,048 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:06:49,049 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:06:49,049 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:708] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:06:49,049 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:711] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:06:49,049 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:714] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:06:49,049 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:716] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:06:49,050 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:718] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:09:44,564 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:09:44,565 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:09:44,565 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:708] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:09:44,565 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:711] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:09:44,565 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:714] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:09:44,565 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:716] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:09:44,566 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:718] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:12:08,556 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:12:08,556 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:711] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:12:08,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:12:08,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:716] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:12:08,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:719] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:12:08,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:721] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:12:08,557 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:723] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:17:16,202 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:693] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:17:16,203 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:694] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:17:16,203 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:696] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:17:16,203 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:699] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:17:16,203 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:702] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:17:16,203 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:17:16,204 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:21:21,362 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:21:21,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:21:21,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:707] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:21:21,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:710] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:21:21,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:713] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:21:21,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:715] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:21:21,363 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:717] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:23:32,610 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:695] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:23:32,610 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:696] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:23:32,610 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:698] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:23:32,611 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:701] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:23:32,611 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:23:32,611 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:23:32,611 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:708] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:25:02,250 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:692] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:25:02,251 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:693] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:25:02,251 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:695] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:25:02,251 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:698] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:25:02,251 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:701] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:25:02,251 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:703] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:25:02,251 - 二维码小工具-v3.4-BUCTPJP[LSG].pyw[line:705] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 18:35:07,225 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:695] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 18:35:07,226 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:696] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 18:35:07,226 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:698] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 18:35:07,226 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:701] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 18:35:07,226 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:704] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 18:35:07,226 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:706] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 18:35:07,227 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:708] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 19:58:16,941 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:808] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 19:58:16,941 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:809] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 19:58:16,942 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:811] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 19:58:16,942 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:814] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 19:58:16,942 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:817] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 19:58:16,942 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:819] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 19:58:16,942 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:821] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 20:01:14,731 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:809] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 20:01:14,732 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:810] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 20:01:14,732 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:812] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 20:01:14,732 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 20:01:14,732 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:818] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 20:01:14,732 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:820] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 20:01:14,732 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:822] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 20:01:19,714 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:213] - text_logo - ERROR: 用户未选择生成模式
+2025-07-23 20:01:28,379 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:215] - text_logo - INFO: 用户选择 模式二
+2025-07-23 20:03:02,093 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:809] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 20:03:02,094 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:810] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 20:03:02,094 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:812] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 20:03:02,094 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 20:03:02,094 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:818] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 20:03:02,094 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:820] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 20:03:02,095 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:822] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 20:03:17,962 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:215] - text_logo - INFO: 用户选择 模式二
+2025-07-23 20:04:10,269 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:809] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 20:04:10,270 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:810] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 20:04:10,270 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:812] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 20:04:10,270 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 20:04:10,270 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:818] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 20:04:10,270 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:820] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 20:04:10,271 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:822] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 20:04:16,361 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:215] - text_logo - INFO: 用户选择 模式二
+2025-07-23 20:05:57,411 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:809] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 20:05:57,412 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:810] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 20:05:57,412 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:812] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 20:05:57,413 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 20:05:57,413 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:818] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 20:05:57,413 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:820] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 20:05:57,413 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:822] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 20:06:03,982 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:215] - text_logo - INFO: 用户选择 模式二
+2025-07-23 20:09:23,907 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:810] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 20:09:23,908 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:811] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 20:09:23,908 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:813] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 20:09:23,908 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:816] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 20:09:23,908 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:819] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 20:09:23,908 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:821] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 20:09:23,909 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:823] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 20:09:30,796 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:215] - text_logo - INFO: 用户选择 模式二
+2025-07-23 20:09:33,511 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:453] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 20:09:33,588 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:455] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 20:09:33,592 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:459] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 20:09:33,594 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:453] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 20:09:33,605 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:455] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 20:09:33,607 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:459] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:07:18,031 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 21:07:18,032 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:816] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 21:07:18,032 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:818] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 21:07:18,032 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:821] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 21:07:18,032 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:824] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 21:07:18,032 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:826] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 21:07:18,032 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:828] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 21:07:29,718 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:59] - produce - INFO: 用户选择 模式一
+2025-07-23 21:07:29,853 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:457] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:07:29,935 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:459] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:07:29,938 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:463] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:07:40,648 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:430] - save - WARNING: 用户未选择路径退出
+2025-07-23 21:08:28,426 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:169] - text_logo - INFO: 用户选择 模式一
+2025-07-23 21:09:40,425 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:816] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 21:09:40,426 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:817] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 21:09:40,426 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:819] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 21:09:40,426 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:822] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 21:09:40,426 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:825] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 21:09:40,426 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:827] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 21:09:40,426 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:829] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 21:09:50,623 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:169] - text_logo - INFO: 用户选择 模式一
+2025-07-23 21:11:53,963 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:814] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 21:11:53,964 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 21:11:53,964 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:817] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 21:11:53,964 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:820] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 21:11:53,964 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:823] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 21:11:53,964 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:825] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 21:11:53,964 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:827] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 21:12:02,388 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:221] - text_logo - ERROR: 用户未选择生成模式
+2025-07-23 21:12:05,166 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:169] - text_logo - INFO: 用户选择 模式一
+2025-07-23 21:12:09,035 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:456] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:12:09,113 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:458] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:12:09,117 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:462] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:16:34,325 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:804] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 21:16:34,325 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:805] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 21:16:34,326 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:807] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 21:16:34,326 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:810] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 21:16:34,326 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:813] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 21:16:34,326 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 21:16:34,327 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:817] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 21:16:42,609 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:169] - text_logo - INFO: 用户选择 模式一
+2025-07-23 21:16:48,119 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:16:48,196 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:16:48,199 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:17:32,204 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:423] - save - INFO: D:\学习\Code\python\二维码小工具\img-Example\strlogo-mod1.png保存完成-生成用时：5.44s
+2025-07-23 21:17:52,820 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:218] - text_logo - INFO: 用户选择 模式二
+2025-07-23 21:17:56,238 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:17:56,251 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:17:56,255 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:18:12,278 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:423] - save - INFO: D:\学习\Code\python\二维码小工具\img-Example\strlogo-mod2.png保存完成-生成用时：3.41s
+2025-07-23 21:24:11,018 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:804] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 21:24:11,019 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:805] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 21:24:11,019 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:807] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 21:24:11,019 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:810] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 21:24:11,019 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:813] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 21:24:11,019 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 21:24:11,020 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:817] - <module> - INFO: ---批量处理模块加载完成---
+2025-07-23 21:24:16,030 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:96] - logo - INFO: 用户选择 模式一
+2025-07-23 21:24:20,130 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2025-07-23 21:24:20,131 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 41 4
+2025-07-23 21:24:20,131 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'cHRM' 57 32
+2025-07-23 21:24:20,131 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'bKGD' 101 6
+2025-07-23 21:24:20,131 - PngImagePlugin.py[line:781] - _open - DEBUG: b'bKGD' 101 6 (unknown)
+2025-07-23 21:24:20,131 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 119 32768
+2025-07-23 21:24:20,235 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 247502 37
+2025-07-23 21:24:20,235 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 247551 37
+2025-07-23 21:24:20,241 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:24:20,253 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:24:20,255 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:25:00,810 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:268] - bg - INFO: 用户选择 模式一
+2025-07-23 21:25:04,953 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2025-07-23 21:25:04,953 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 31060
+2025-07-23 21:25:05,023 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:25:05,038 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:25:05,043 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:25:25,947 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2025-07-23 21:25:25,947 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 41 40324
+2025-07-23 21:25:25,953 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:25:25,965 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:25:25,969 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:25:25,981 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:402] - parse - INFO: [Decoded(data=b'111', type='QRCODE', rect=Rect(left=8, top=8, width=283, height=283), polygon=[Point(x=8, y=8), Point(x=8, y=291), Point(x=291, y=291), Point(x=291, y=8)], quality=1, orientation=None)]
+2025-07-23 21:25:34,216 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2025-07-23 21:25:34,216 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 41 4
+2025-07-23 21:25:34,216 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'cHRM' 57 32
+2025-07-23 21:25:34,216 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'bKGD' 101 6
+2025-07-23 21:25:34,216 - PngImagePlugin.py[line:781] - _open - DEBUG: b'bKGD' 101 6 (unknown)
+2025-07-23 21:25:34,216 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 119 32768
+2025-07-23 21:25:34,219 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 247502 37
+2025-07-23 21:25:34,219 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 247551 37
+2025-07-23 21:25:34,225 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:25:34,242 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:25:34,247 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:25:34,264 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:402] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xb8\x80\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89\xe8\x83\x8c\xe6\x99\xaf\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a QR code by with background mod1', type='QRCODE', rect=Rect(left=8, top=8, width=424, height=424), polygon=[Point(x=8, y=8), Point(x=10, y=431), Point(x=432, y=432), Point(x=431, y=10)], quality=1, orientation=None)]
+2025-07-23 21:25:44,832 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2025-07-23 21:25:44,833 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 41 4
+2025-07-23 21:25:44,833 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'cHRM' 57 32
+2025-07-23 21:25:44,833 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'bKGD' 101 6
+2025-07-23 21:25:44,833 - PngImagePlugin.py[line:781] - _open - DEBUG: b'bKGD' 101 6 (unknown)
+2025-07-23 21:25:44,834 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 119 32768
+2025-07-23 21:25:44,849 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 176625 37
+2025-07-23 21:25:44,849 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 176674 37
+2025-07-23 21:25:44,858 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:25:44,876 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:25:44,880 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:25:44,891 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:402] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xba\x8c\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89\xe8\x83\x8c\xe6\x99\xaf\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is a QR code by with background mod2', type='QRCODE', rect=Rect(left=32, top=32, width=423, height=423), polygon=[Point(x=32, y=32), Point(x=34, y=455), Point(x=455, y=455), Point(x=455, y=34)], quality=1, orientation=None)]
+2025-07-23 21:25:51,913 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2025-07-23 21:25:51,913 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 41 4
+2025-07-23 21:25:51,913 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'cHRM' 57 32
+2025-07-23 21:25:51,914 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'bKGD' 101 6
+2025-07-23 21:25:51,914 - PngImagePlugin.py[line:781] - _open - DEBUG: b'bKGD' 101 6 (unknown)
+2025-07-23 21:25:51,914 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 119 30341
+2025-07-23 21:25:51,916 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 30472 37
+2025-07-23 21:25:51,916 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 30521 37
+2025-07-23 21:25:51,926 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:25:51,942 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:25:51,947 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:25:51,961 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:402] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xba\x8c\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89logo\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is theQR code with logo by mod2\n', type='QRCODE', rect=Rect(left=7, top=7, width=425, height=425), polygon=[Point(x=7, y=7), Point(x=10, y=432), Point(x=431, y=430), Point(x=432, y=10)], quality=1, orientation=None)]
+2025-07-23 21:25:55,354 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IHDR' 16 13
+2025-07-23 21:25:55,354 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'gAMA' 41 4
+2025-07-23 21:25:55,354 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'cHRM' 57 32
+2025-07-23 21:25:55,355 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'bKGD' 101 6
+2025-07-23 21:25:55,355 - PngImagePlugin.py[line:781] - _open - DEBUG: b'bKGD' 101 6 (unknown)
+2025-07-23 21:25:55,355 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'IDAT' 119 32768
+2025-07-23 21:25:55,357 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 34345 37
+2025-07-23 21:25:55,357 - PngImagePlugin.py[line:201] - call - DEBUG: STREAM b'tEXt' 34394 37
+2025-07-23 21:25:55,365 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:446] - p_vew - INFO: ++创建临时文件夹++
+2025-07-23 21:25:55,377 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:448] - p_vew - INFO: ++将图片保存为临时文件++
+2025-07-23 21:25:55,379 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:452] - p_vew - INFO: ++清除临时文件夹++
+2025-07-23 21:25:55,388 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:402] - parse - INFO: [Decoded(data=b'\xe8\xbf\x99\xe6\x98\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe4\xb8\x80\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe5\xb8\xa6\xe6\x9c\x89logo\xe7\x9a\x84\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81\xef\xbc\x9b\nThis is theQR code with logo by mod1', type='QRCODE', rect=Rect(left=7, top=7, width=424, height=424), polygon=[Point(x=7, y=7), Point(x=10, y=431), Point(x=430, y=430), Point(x=431, y=10)], quality=1, orientation=None)]
+2025-07-23 21:51:03,566 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:804] - <module> - INFO: ---日志模块加载完成---
+2025-07-23 21:51:03,567 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:805] - <module> - INFO: ---GUI加载成功，程序启动---正在加载必要功能---
+2025-07-23 21:51:03,567 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:807] - <module> - INFO: ---帮助模块加载完成---
+2025-07-23 21:51:03,567 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:810] - <module> - INFO: ---反馈模块加载完成---
+2025-07-23 21:51:03,567 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:813] - <module> - INFO: ---WIFI码模块加载完成---
+2025-07-23 21:51:03,567 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:815] - <module> - INFO: ---名片码模块加载完成---
+2025-07-23 21:51:03,567 - 二维码小工具-v3.5-BUCTPJP[LSG].pyw[line:817] - <module> - INFO: ---批量处理模块加载完成---

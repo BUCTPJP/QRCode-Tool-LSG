@@ -31,321 +31,38 @@
     </size>
    </property>
    <layout class="QGridLayout" name="gridLayout_3">
-    <item row="0" column="0">
-     <widget class="QFrame" name="frame">
+    <item row="0" column="2">
+     <widget class="QLabel" name="privew">
       <property name="minimumSize">
        <size>
-        <width>0</width>
-        <height>500</height>
+        <width>355</width>
+        <height>355</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>600</width>
-        <height>500</height>
+        <width>355</width>
+        <height>355</height>
        </size>
       </property>
-      <property name="toolTip">
-       <string>生成</string>
+      <property name="font">
+       <font>
+        <family>黑体</family>
+        <pointsize>20</pointsize>
+       </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">QFrame{
+       <string notr="true">QLabel{
 border: 2px solid black;
 border-radius: 2px
 }</string>
       </property>
-      <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
+      <property name="text">
+       <string>预览</string>
       </property>
-      <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <property name="rightMargin">
-        <number>11</number>
-       </property>
-       <item row="6" column="1" colspan="3">
-        <widget class="QPushButton" name="button2">
-         <property name="font">
-          <font>
-           <family>楷体_GB2312</family>
-           <pointsize>14</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 213, 252);</string>
-         </property>
-         <property name="text">
-          <string>选择logo
-并生成</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0">
-        <widget class="QPushButton" name="button1">
-         <property name="font">
-          <font>
-           <family>楷体_GB2312</family>
-           <pointsize>14</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 213, 252);</string>
-         </property>
-         <property name="text">
-          <string>普通
-生成</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0" colspan="2">
-        <widget class="QLabel" name="tip1">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>楷体_GB2312</family>
-           <pointsize>20</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>内容</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="5">
-        <widget class="QPushButton" name="button7">
-         <property name="font">
-          <font>
-           <family>黑体</family>
-           <pointsize>20</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 230, 44);</string>
-         </property>
-         <property name="text">
-          <string>保存</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="4">
-        <widget class="QPushButton" name="button3">
-         <property name="font">
-          <font>
-           <family>楷体_GB2312</family>
-           <pointsize>14</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 213, 252);</string>
-         </property>
-         <property name="text">
-          <string>选择背景
-并生成</string>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0" colspan="6">
-        <widget class="QTextBrowser" name="text4">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>黑体</family>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QPushButton" name="button4">
-         <property name="font">
-          <font>
-           <family>楷体_GB2312</family>
-           <pointsize>14</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 51), stop:0.166 rgba(255, 255, 0, 255), stop:0.333 rgba(0, 255, 0, 255), stop:0.5 rgba(0, 255, 255, 255), stop:0.666 rgba(0, 0, 255, 255), stop:0.833 rgba(255, 0, 255, 255), stop:1 rgba(255, 0, 0, 255));</string>
-         </property>
-         <property name="text">
-          <string>选择
-颜色</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="1">
-        <widget class="QTextEdit" name="text3">
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>Times New Roman</family>
-           <pointsize>12</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <property name="lineWidth">
-          <number>7</number>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" colspan="2">
-        <widget class="QLabel" name="tip6">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>Adobe Heiti Std</family>
-           <pointsize>10</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string>X(下方功能慎用，
-请提前阅读使用说明了解)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0" colspan="2">
-        <widget class="QTextEdit" name="text7">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>Times New Roman</family>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="cursor" stdset="0">
-          <cursorShape>IBeamCursor</cursorShape>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2" rowspan="6" colspan="4">
-        <widget class="QTextEdit" name="text1">
-         <property name="minimumSize">
-          <size>
-           <width>350</width>
-           <height>250</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>黑体</family>
-           <pointsize>14</pointsize>
-          </font>
-         </property>
-         <property name="cursor" stdset="0">
-          <cursorShape>IBeamCursor</cursorShape>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0" rowspan="2" colspan="2">
-        <widget class="QFrame" name="frame_3">
-         <property name="font">
-          <font>
-           <family>楷体_GB2312</family>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(212, 255, 179);</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout">
-          <item>
-           <widget class="QRadioButton" name="mod1">
-            <property name="font">
-             <font>
-              <family>楷体_GB2312</family>
-              <pointsize>10</pointsize>
-             </font>
-            </property>
-            <property name="text">
-             <string>模式一</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QRadioButton" name="mod2">
-            <property name="font">
-             <font>
-              <family>楷体_GB2312</family>
-              <pointsize>10</pointsize>
-             </font>
-            </property>
-            <property name="text">
-             <string>模式二</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-      </layout>
      </widget>
     </item>
     <item row="2" column="0" colspan="3">
@@ -442,8 +159,8 @@ border-radius: 2px
          </property>
          <property name="font">
           <font>
-           <family>楷体_GB2312</family>
-           <pointsize>15</pointsize>
+           <family>AcadEref</family>
+           <pointsize>12</pointsize>
           </font>
          </property>
          <property name="styleSheet">
@@ -470,8 +187,8 @@ border-radius: 2px
          </property>
          <property name="font">
           <font>
-           <family>楷体_GB2312</family>
-           <pointsize>16</pointsize>
+           <family>AcadEref</family>
+           <pointsize>12</pointsize>
           </font>
          </property>
          <property name="styleSheet">
@@ -495,38 +212,379 @@ border-radius: 2px
       </layout>
      </widget>
     </item>
-    <item row="0" column="2">
-     <widget class="QLabel" name="privew">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
       <property name="minimumSize">
        <size>
-        <width>355</width>
-        <height>355</height>
+        <width>0</width>
+        <height>500</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>355</width>
-        <height>355</height>
+        <width>600</width>
+        <height>500</height>
        </size>
       </property>
-      <property name="font">
-       <font>
-        <family>黑体</family>
-        <pointsize>20</pointsize>
-       </font>
+      <property name="toolTip">
+       <string>生成</string>
       </property>
       <property name="styleSheet">
-       <string notr="true">QLabel{
+       <string notr="true">QFrame{
 border: 2px solid black;
 border-radius: 2px
 }</string>
       </property>
-      <property name="text">
-       <string>预览</string>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
       </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
       </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="rightMargin">
+        <number>11</number>
+       </property>
+       <item row="10" column="3">
+        <widget class="QPushButton" name="button3">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 213, 252);</string>
+         </property>
+         <property name="text">
+          <string>添加图片
+背景</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="tip1">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>AcadEref</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>内容→</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QPushButton" name="button1">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 213, 252);</string>
+         </property>
+         <property name="text">
+          <string>普通
+生成</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QTextEdit" name="text3">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <property name="lineWidth">
+          <number>7</number>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QPushButton" name="button2">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 213, 252);</string>
+         </property>
+         <property name="text">
+          <string>添加图形
+logo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0" colspan="5">
+        <widget class="QTextBrowser" name="text4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>黑体</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QPushButton" name="button9">
+         <property name="font">
+          <font>
+           <family>幼圆</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 51), stop:0.166 rgba(255, 255, 0, 255), stop:0.333 rgba(0, 255, 0, 255), stop:0.5 rgba(0, 255, 255, 255), stop:0.666 rgba(0, 0, 255, 255), stop:0.833 rgba(255, 0, 255, 255), stop:1 rgba(255, 0, 0, 255));</string>
+         </property>
+         <property name="text">
+          <string>文字logo
+颜色</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" rowspan="10" colspan="3">
+        <widget class="QTextEdit" name="text1">
+         <property name="minimumSize">
+          <size>
+           <width>350</width>
+           <height>250</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>黑体</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="cursor" stdset="0">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="4">
+        <widget class="QPushButton" name="button7">
+         <property name="font">
+          <font>
+           <family>黑体</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 230, 44);</string>
+         </property>
+         <property name="text">
+          <string>保存</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <widget class="QLabel" name="tip6">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 黑体 Std R</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>X(下方框↓慎用，
+请提前阅读使用说明了解)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="2">
+        <widget class="QPushButton" name="button8">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 213, 252);</string>
+         </property>
+         <property name="text">
+          <string>添加文字
+logo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QPushButton" name="button4">
+         <property name="font">
+          <font>
+           <family>幼圆</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 51), stop:0.166 rgba(255, 255, 0, 255), stop:0.333 rgba(0, 255, 0, 255), stop:0.5 rgba(0, 255, 255, 255), stop:0.666 rgba(0, 0, 255, 255), stop:0.833 rgba(255, 0, 255, 255), stop:1 rgba(255, 0, 0, 255));</string>
+         </property>
+         <property name="text">
+          <string>二维码
+颜色</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QFrame" name="frame_3">
+         <property name="font">
+          <font>
+           <family>楷体_GB2312</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(212, 255, 179);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QRadioButton" name="mod1">
+            <property name="font">
+             <font>
+              <family>楷体_GB2312</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>模式一</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="mod2">
+            <property name="font">
+             <font>
+              <family>楷体_GB2312</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>模式二(可自定义颜色)</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QTextEdit" name="text8">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="2">
+        <widget class="QTextEdit" name="text7">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor" stdset="0">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </item>
    </layout>

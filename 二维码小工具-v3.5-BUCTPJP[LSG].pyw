@@ -2,11 +2,11 @@
 # -*- encoding: utf-8 -*-
 '''
 @File    :   二维码小工具-v3.4-BUCTPJP[LSG].pyw
-@Time    :   2024/03/26 15:00:00
+@Time    :   2025/07/23 15:00:00
 @Author  :   BUCTPJP 
-@Version :   3.4
+@Version :   3.5
 @Contact :   pjp1095765918@gmail.com
-@License :   Copyright (C) 2023 , Inc. All Rights Reserved 
+@License :   Copyright (C) 2025 , Inc. All Rights Reserved 
 @Desc    :   None
 '''
 
@@ -14,17 +14,22 @@
 import qrcode,logging,time,sys,pyzbar,tempfile,os,webbrowser,UI.UI_rc,win32ui
 from qrcode.image.styles.moduledrawers import RoundedModuleDrawer,GappedSquareModuleDrawer,CircleModuleDrawer,SquareModuleDrawer,VerticalBarsDrawer,HorizontalBarsDrawer
 from qrcode.image.styledpil import StyledPilImage
+
 from PIL.ImageFilter import SHARPEN
-from PIL import Image,ImageEnhance
+from PIL import Image,ImageEnhance,ImageDraw, ImageFont, ImageColor
 import pyzbar.pyzbar as pyzbar
 from segno import helpers
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QPixmap,QIcon
-from PyQt5.QtCore import QSize,QMetaObject
+from PyQt5.QtCore import QSize,QMetaObject,Qt
 from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import QInputDialog
+
 from UI.Ui_主窗口 import Ui_MainWindow
 from UI.Ui_WIFI import Ui_WIFI
 from UI.Ui_名片 import Ui_identify
+from UI.Ui_批量 import Ui_BatchWindow
 
 #TODO:日志输出
 logger = logging.getLogger('log')
@@ -35,10 +40,17 @@ logging.basicConfig(format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(func
                     encoding = 'utf-8')
 
 #TODO:方法
-def seek_color():       #FIXME:颜色选择
-    global col_select
+def qr_color():       #FIXME:二维码颜色选择
+    global qr_col
     col_select = QColorDialog.getColor()
-    myWindow.text3.setText(str(col_select.name())) 
+    myWindow.text3.setText(str(col_select.name()))
+    qr_col = str(col_select.name())
+
+def str_color():       #FIXME:文字logo颜色选择
+    global text_col
+    col_select = QColorDialog.getColor()
+    myWindow.text8.setText(str(col_select.name()))
+    text_col = str(col_select.name())
 
 def produce():          #FIXME:正常二维码
     global runtime,img_s
@@ -72,7 +84,7 @@ def produce():          #FIXME:正常二维码
         )
         qr.add_data(string)
         qr.make(fit=True)                                           #使用make方法生成                                
-        img_s = qr.make_image(fill_color=str(col_select.name()), back_color='#FFF')
+        img_s = qr.make_image(fill_color=qr_col, back_color='#FFF')
         end = time.time()
         runtime = "生成用时：{:.2f}s".format(end - start)
         p_vew(img_s)   
@@ -120,7 +132,7 @@ def logo():             #FIXME:带logo二维码
         )
         qr.add_data(string)
         qr.make(fit=True)  
-        img = qr.make_image(fill_color=str(col_select.name()), back_color='#FFF')  
+        img = qr.make_image(fill_color=qr_col, back_color='#FFF')  
         end1 = time.time()                          
         lpszFilter = "Image Files (*.jpg *.gif *.png *.jpeg)|*.jpg;*.gif;*.png;*.jpeg|" \
                     "Files (*.*)|*.*|| "                                                    # 文件类型过滤
@@ -148,6 +160,106 @@ def logo():             #FIXME:带logo二维码
             end = time.time()
             runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))    
             p_vew(img_s)   
+
+def text_logo():        #FIXME:带l文字ogo二维码
+    global runtime,img_s
+    qr_size = 300
+    start = time.time()  
+    if myWindow.mod.checkedId() == 1:
+        logger.info('用户选择 模式一')                       # TODO:info运行信息输出
+        string = myWindow.text1.toPlainText()               # 获取用户输入内容 
+        qr = qrcode.QRCode(
+                version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
+                error_correction=qrcode.constants.ERROR_CORRECT_H,  # ERROR_CORRECT_L/M/Q/H  7%/15%/25%/30%的容错率
+                box_size=8,                                         # 控制二维码中每个小格子包含的像素数
+                border=1,                                           # 控制边框(二维码与图片边界的距离)包含的格子数(默认为4)
+        )
+        qr.add_data(string)
+        qr.make(fit=True)    
+        end1 = time.time()  
+        img = qr.make_image(back_color='#FFF',image_factory=StyledPilImage, module_drawer=RoundedModuleDrawer())
+        img_s = img.convert('RGB')
+        start1 = time.time()
+        if qr_size:
+            img_s = img_s.resize((qr_size, qr_size), Image.Resampling.LANCZOS)
+        # 创建绘图对象
+        draw = ImageDraw.Draw(img_s)
+        font_size = min(max(10, int(qr_size * 0.1)), 40) # 占二维码尺寸的10%
+        font = ImageFont.truetype("msyh.ttc", font_size)
+        logo_text, ok = QInputDialog.getText(
+            None, "文字Logo", "请输入要添加的文字:"
+        )
+        text_logo = logo_text.strip()  # 去除首尾空格
+        if not ok or not logo_text:
+            return
+        # 计算文字位置（居中）
+        bbox = ImageDraw.Draw(Image.new('RGB', (1, 1))).textbbox((0, 0), text_logo, font=font)
+        text_width, text_height = bbox[2] - bbox[0], bbox[3] - bbox[1]
+        img_w, img_h = img_s.size
+        position = (
+            (img_w - text_width) // 2,
+            (img_h - text_height) // 2
+        )
+        x, y = position
+        # 绘制描边
+        for dx in [-2, 0, 2]:
+            for dy in [-2, 0, 2]:
+                if dx != 0 or dy != 0:  # 跳过中心位置
+                    draw.text((x+dx, y+dy), text_logo, font=font, fill='white')
+        # 绘制主文字
+        draw.text(position, text_logo, font=font, fill=text_col)
+        end = time.time()
+        runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))
+        p_vew(img_s)   
+    elif myWindow.mod.checkedId() == -1:
+        QMessageBox.critical(myWindow, "错误", "未选择生成模式")
+        logger.error("用户未选择生成模式")                          #TODO:error错误信息输出
+    else:
+        logger.info('用户选择 模式二')                              #TODO:info运行信息输出
+        string= myWindow.text1.toPlainText()
+        qr = qrcode.QRCode(
+                version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
+                error_correction=qrcode.constants.ERROR_CORRECT_H,  # ERROR_CORRECT_L/M/Q/H  7%/15%/25%/30%的容错率
+                box_size=8,                                         # 控制二维码中每个小格子包含的像素数
+                border=1,                                           # 控制边框(二维码与图片边界的距离)包含的格子数(默认为4)
+        )
+        qr.add_data(string)
+        qr.make(fit=True)  
+        end1 = time.time() 
+        img = qr.make_image(fill_color=qr_col, back_color='#FFF')  
+        img_s = img.convert('RGB')
+        start1 = time.time()
+        if qr_size:
+            img_s = img_s.resize((qr_size, qr_size), Image.Resampling.LANCZOS)
+        # 创建绘图对象
+        draw = ImageDraw.Draw(img_s)
+        font_size = min(max(10, int(qr_size * 0.1)), 40)  # 占二维码尺寸的10%
+        font = ImageFont.truetype("msyh.ttc", font_size)
+        logo_text, ok = QInputDialog.getText(
+            None, "文字Logo", "请输入要添加的文字:"
+        )
+        text_logo = logo_text.strip()  # 去除首尾空格
+        if not ok or not logo_text:
+            return
+        # 计算文字位置（居中）
+        bbox = ImageDraw.Draw(Image.new('RGB', (1, 1))).textbbox((0, 0), text_logo, font=font)
+        text_width, text_height = bbox[2] - bbox[0], bbox[3] - bbox[1]
+        img_w, img_h = img_s.size
+        position = (
+            (img_w - text_width) // 2,
+            (img_h - text_height) // 2
+        )
+        x, y = position
+        # 绘制描边
+        for dx in [-2, 0, 2]:
+            for dy in [-2, 0, 2]:
+                if dx != 0 or dy != 0:  # 跳过中心位置
+                    draw.text((x+dx, y+dy), text_logo, font=font, fill='white')
+        # 绘制主文字
+        draw.text(position, text_logo, font=font, fill=str(text_col))
+        end = time.time()                       
+        runtime = "生成用时：{:.2f}s".format((end1 - start)+(end - start1))    
+        p_vew(img_s) 
 
 def bg():               #FIXME:带背景二维码
     global runtime,img_s
@@ -221,7 +333,7 @@ def bg():               #FIXME:带背景二维码
         )
         qr.add_data(string)
         qr.make(fit=True)
-        img = qr.make_image(fill_color=str(col_select.name()), back_color='#FFF').convert('RGBA')                            
+        img = qr.make_image(fill_color=qr_col, back_color='#FFF').convert('RGBA')                            
         end1 = time.time() 
         lpszFilter = "Image Files (*.jpg *.gif *.png *.jpeg)|*.jpg;*.gif;*.png;*.jpeg|" \
                     "Files (*.*)|*.*|| "                                                    # 文件类型过滤
@@ -324,7 +436,7 @@ def save_1(img):        #FIXME:保存wifi码/名片码图像
         logger.warning('用户未选择路径退出')            #TODO:warning警告输出
         pass
     else:
-        img.save(file_path,scale = 10)               
+        img.save(file_path,scale = 20)               
         logger.info(file_path + '保存完成-')   #TODO:info运行信息输出
         myWindow.text4.clear()
         myWindow.text4.setText(file_path+ '保存完成')
@@ -362,7 +474,7 @@ def p_vew_2(img):       #FIXME:预览名片码图像
     logger.info('++清除临时文件夹++')                   #TODO:info运行信息输出
 
 def description():      #FIXME:使用说明
-    os.system(r'v3.4使用说明.txt')
+    os.system(r'v3.5使用说明.txt')
 
 def git_open():         #FIXME:打开github
     webbrowser.open('https://github.com/BUCTPJP/QRCode-Tool-LSG/issues')
@@ -416,25 +528,108 @@ def make_identifycode():#FIXME:生成名片码
                                  city=identify_window.lineEdit_2.text())
     p_vew_2(itcode)
 
+def add_item():         #FIXME:批量添加项目
+    try:
+        # 显式指定所有参数
+        text, ok = QInputDialog.getText(
+            batch_window,                    # parent
+            "添加项目",              # title
+            "请输入内容:",           # label
+            QtWidgets.QLineEdit.Normal,  # echo mode
+            "",                      # 默认文本
+            Qt.WindowFlags(),        # flags
+            Qt.ImhNone               # input method hints
+        )
+        
+        if ok and text:
+            row = batch_window.tableWidget.rowCount()
+            batch_window.tableWidget.insertRow(row)
+            batch_window.tableWidget.setItem(row, 0, QTableWidgetItem(text))
+            batch_window.tableWidget.setItem(row, 1, QTableWidgetItem("待生成"))
+    except Exception as e:
+        tip = f"添加项目错误: {str(e)}"
+        print(tip)
+        QtWidgets.QMessageBox.critical(None, "错误", tip)
+
+def remove_item():      #FIXME:批量移除项目
+    """移除选中项目"""
+    current_row = batch_window.tableWidget.currentRow()
+    if current_row >= 0:
+        batch_window.tableWidget.removeRow(current_row)
+
+def generate_batch():   #FIXME:批量生成
+    """批量生成二维码"""
+    output_dir = os.getcwd()  # 默认使用当前工作目录
+    try:
+        # 尝试获取用户选择的目录
+        output_dir = QFileDialog.getExistingDirectory(batch_window, "选择输出目录")
+        if not output_dir:  # 用户取消选择
+            output_dir = os.getcwd()
+    except Exception as e:
+        print(f"使用默认输出目录: {output_dir}")  # 此时output_dir已初始化
+    if batch_window.tableWidget.rowCount() == 0:
+        QMessageBox.warning(batch_window, "警告", "请先添加要生成的内容")
+        return
+
+    # 创建进度对话框
+    progress = QProgressDialog("批量生成中...", "取消", 0, batch_window.tableWidget.rowCount(), batch_window)
+    progress.setWindowTitle("批量生成")
+    progress.setWindowModality(Qt.WindowModal)
+        
+    success_count = 0
+    for row in range(batch_window.tableWidget.rowCount()):
+        progress.setValue(row)
+        if progress.wasCanceled():
+            break    
+        content = str(batch_window.tableWidget.item(row, 0).text())
+        try:
+            qr = qrcode.QRCode(
+                version=5,                                          # 二维码的格子矩阵大小，可以是1到40，1最小为21*21，40是177*177
+                error_correction=qrcode.constants.ERROR_CORRECT_H,  # ERROR_CORRECT_L/M/Q/H  7%/15%/25%/30%的容错率
+                box_size=8,                                         # 控制二维码中每个小格子包含的像素数
+                border=1,                                           # 控制边框(二维码与图片边界的距离)包含的格子数(默认为4)
+                )
+            qr.add_data(content)
+            qr.make(fit=True)                                           #使用make方法生成                                
+            img = qr.make_image(back_color='#FFF',image_factory=StyledPilImage, module_drawer=RoundedModuleDrawer())
+
+            # 保存图片
+            file_name = f"qrcode_{row+1}.png"
+            file_path = os.path.join(output_dir, file_name)
+            img.save(file_path)
+                
+            batch_window.tableWidget.setItem(row, 1, QTableWidgetItem("生成成功"))
+            success_count += 1
+        except Exception as e:
+            batch_window.tableWidget.setItem(row, 1, QTableWidgetItem(f"失败: {str(e)}"))
+        
+    progress.setValue(batch_window.tableWidget.rowCount())
+    QMessageBox.information(batch_window, "完成", f"批量生成完成，成功{success_count}个，失败{batch_window.tableWidget.rowCount()-success_count}个")
+
 #TODO:初始化GUI
 class MyWindow(QMainWindow,Ui_MainWindow):              #FIXME:主窗口
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.button4.clicked.connect(seek_color)
+
+        self.button4.clicked.connect(qr_color)
         self.button1.clicked.connect(produce)
         self.button2.clicked.connect(logo)
         self.button3.clicked.connect(bg)
         self.button5.clicked.connect(parse)
         self.button6.clicked.connect(clean)
-        self.button7.clicked.connect(lambda:save(img_s)) 
+        self.button7.clicked.connect(lambda:save(img_s))
+        self.button8.clicked.connect(text_logo)
+        self.button9.clicked.connect(str_color)
     def open_child_window(self):                        #打开关于子窗口
         child_window.show()
     def open_wifi_window(self):                         #打开WIFI码子窗口
         wifi_window.show()
     def open_identify_window(self):                     #打开名片码子窗口
         identify_window.show()
-      
+    def open_batch_window(self):                        #打开批量处理子窗口
+        batch_window.show()
+
 class WIFI(QWidget,Ui_WIFI):                            #FIXME:WIFI码子窗口
     def __init__(self):
         super().__init__()
@@ -578,21 +773,31 @@ class Child(QWidget):                                   #FIXME:关于子窗口
         self.gridLayout_2.addWidget(self.label_7, 2, 2, 1, 1)
         self.verticalLayout.addWidget(self.frame_2)
         QtCore.QMetaObject.connectSlotsByName(self)
-        self.label.setText("版本：\n""V3.4")
+        self.label.setText("版本：\n""V3.5")
         self.label_2.setText("Email:")
         self.label_3.setText("pjp1095765918@gmail.com")
         self.label_4.setText("pjp1095765918@163.com")
         self.label_5.setText("软件发布页")
         self.label_6.setText("<a href = 'https://github.com/BUCTPJP/QRCode-Tool-LSG'>Github</a>")
-        self.label_7.setText("<a href = 'https://www.52pojie.cn/forum.php?mod=viewthread&tid=1865282&page=1#pid48817438'>LSG</a>")
+        self.label_7.setText("<a href = 'https://www.52pojie.cn/home.php?mod=space&uid=1839100&do=thread&view=me&from=space'>LSG</a>")
         self.label_6,self.label_7.setStyleSheet('QLabel {color: blue; text-decoration: underline}')
         self.label_6,self.label_7.setOpenExternalLinks(True)
+        
+class Batch(QWidget, Ui_BatchWindow):                   #FIXME:批量处理子窗口
+    def __init__(self):
+        super().__init__()
+        self.setupUi(self)
+        self.retranslateUi(self)
+        self.addBtn.clicked.connect(add_item)
+        self.removeBtn.clicked.connect(remove_item)
+        self.generateBtn.clicked.connect(generate_batch)
 
 app = QApplication(sys.argv)
 myWindow = MyWindow()                                   #TODO:实例化
 wifi_window = WIFI()
 identify_window = identify()  
-child_window = Child()           
+child_window = Child() 
+batch_window = Batch()                                
 
 myWindow.show()
 
@@ -608,6 +813,8 @@ myWindow.wifi_code.triggered.connect(myWindow.open_wifi_window)
 logger.info('---WIFI码模块加载完成---')                                     #TODO:info运行信息输出
 myWindow.identify_code.triggered.connect(myWindow.open_identify_window)
 logger.info('---名片码模块加载完成---')                                     #TODO:info运行信息输出
+myWindow.batch.triggered.connect(myWindow.open_batch_window)
+logger.info('---批量处理模块加载完成---')   
 
 app.exec_()
 myWindow.close()
