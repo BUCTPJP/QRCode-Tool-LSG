@@ -32,7 +32,11 @@
 
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-code.png" width="200" height="200"  alt="Business card_code"/>
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-effect.png" width="200" height="400"  alt="Business card_effect"/></br>
-  
+
+### 5.批量生成二维码
+
+  <img src="https://s21.ax1x.com/2025/07/23/pVGWDYQ.png" width="200" height="200"  alt="Business card_code"/>
+
 ***
 ## 使用提醒：
 + 1.生成带有背景图片的二维码时，尽量``不要选择背景过于复杂``的图片
