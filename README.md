@@ -16,6 +16,11 @@
 
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod1.png" width="200" height="200"  alt="logo_mod1"/>
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/logo-mod2.png" width="200" height="200"  alt="logo_mod2"/></br>
+
++ 生成带文字logo的二维码
+
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/strlogo-mod1.png" width="200" height="200"  alt="strlogo_mod1"/>
+  <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/strlogo-mod2.png" width="200" height="200"  alt="strlogo_mod2"/>
   ​​
 + 生成带背景图片的二维码  
 
@@ -32,6 +37,10 @@
 
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-code.png" width="200" height="200"  alt="Business card_code"/>
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-effect.png" width="200" height="400"  alt="Business card_effect"/></br>
+  
+### 3.批量生成二维码
+
+  <img src="https://s21.ax1x.com/2025/07/23/pVGWDYQ.png" width="200" height="200"  alt="Business card_code"/>
   
 ***
 ## 使用提醒：
