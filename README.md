@@ -38,7 +38,7 @@
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-code.png" width="200" height="200"  alt="Business card_code"/>
   <img src="https://github.com/BUCTPJP/QRCode-Tool-LSG/blob/master/img-Example/Business-card-effect.png" width="200" height="400"  alt="Business card_effect"/></br>
   
-### 3.批量生成二维码
+### 5.批量生成二维码
 
   <img src="https://s21.ax1x.com/2025/07/23/pVGWDYQ.png" width="200" height="200"  alt="Business card_code"/>
   
